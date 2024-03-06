@@ -1,0 +1,51 @@
+spriteTypes = {
+
+	# leaders we need to override in DLC go in this file
+
+	spriteType = {
+		name = "GFX_idea_k_a_fattukova"
+		texturefile = "gfx/chiefs/idea_k_a_fattukova.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_kh_o_soewatis"
+		texturefile = "gfx/chiefs/idea_kh_o_soewatis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_t_k_mueller"
+		texturefile = "gfx/chiefs/idea_t_k_mueller.dds"
+	}
+	spriteType = {
+		name = "GFX_AVMorozow"
+		texturefile = "gfx/leaders/Portrait_SCH_f.dds"
+	}
+	spriteType = {
+		name = "GFX_TVSchmierat"
+		texturefile = "gfx/leaders/Portrait_SCH_c.dds"
+	}
+	spriteType = {
+		name = "GFX_NKRashtequil"
+		texturefile = "gfx/leaders/Portrait_SCH_d.dds"
+	}
+	spriteType = {
+		name = "GFX_KASchaefer"
+		texturefile = "gfx/leaders/Portrait_SCH_n.dds"
+	}
+
+	spriteType = {
+		name = "GFX_JWagner"
+		texturefile = "gfx/leaders/Portrait_VON_f.dds"
+	}
+	spriteType = {
+		name = "GFX_JSchaefer"
+		texturefile = "gfx/leaders/Portrait_VON_c.dds"
+	}
+	spriteType = {
+		name = "GFX_KFBecker"
+		texturefile = "gfx/leaders/Portrait_VON_d.dds"
+	}
+	spriteType = {
+		name = "GFX_RMeyer"
+		texturefile = "gfx/leaders/Portrait_VON_n.dds"
+	}
+
+}

@@ -1,0 +1,126 @@
+ideas = {
+
+	country = {
+
+		VON_the_developed_capital = {
+			picture = gre_schachtplan
+
+			allowed = {
+				original_tag = VON
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = +0.1
+				stability_weekly = +0.003
+				war_support_factor = +0.1
+			}
+		}
+
+		VON_first_anti_shimyytrov_war = {
+			picture = war_economy
+
+			allowed = {
+				original_tag = VON
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = -0.01
+				war_support_factor = +0.1
+				war_support_weekly = +0.05
+			}
+		}
+
+		VON_prepare_for_the_second_anti_shimyytrov_war = {
+			picture = war_economy
+
+			allowed = {
+				original_tag = VON
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = +0.005
+				war_support_factor = +0.1
+				war_support_weekly = +0.005
+				production_speed_buildings_factor = +1
+			}
+		}
+
+		VON_prepare_for_the_second_anti_shimyytrov_war_1 = {
+			picture = war_economy
+
+			allowed = {
+				original_tag = VON
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = +0.005
+				war_support_factor = +0.1
+				war_support_weekly = +0.005
+				production_speed_buildings_factor = +1
+				production_factory_efficiency_gain_factor = +0.5
+				production_factory_max_efficiency_factor = +0.5
+			}
+		}
+
+		VON_postwar_reconstruction = {
+			picture = gre_schachtplan
+
+			allowed = {
+				original_tag = VON
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = +0.005
+				production_speed_buildings_factor = +1
+			}
+		}
+
+		VON_second_anti_shimyytrov_war = {
+			picture = war_economy
+
+			allowed = {
+				original_tag = VON
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				war_support_weekly = +0.005
+				production_speed_buildings_factor = +0.1
+				production_factory_efficiency_gain_factor = +0.5
+				army_core_attack_factor = 3
+				army_defence_factor = 1.5
+			}
+		}
+
+	}
+
+}

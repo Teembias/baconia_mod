@@ -1,0 +1,627 @@
+﻿
+##### OOB #####
+units = {
+### IJN ###
+	#Yokosuka (Tokyo)
+	fleet = {
+		name = "Dinken Flothia"			
+		naval_base = 13261  #Yokosuka
+		task_force = {
+			name = "1kn. Flothia"
+			location = 13261  #Yokosuka
+			#Dai 1 Sentai
+			ship = { name = "Schturk"  pride_of_the_fleet = yes definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH version_name = "Klasska Jorketha" } } }
+			ship = { name = "Stiek" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Arka" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Keisch" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH} } }
+			#Dai 8 Sentai
+			ship = { name = "Vruka" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Akła" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH } } }
+			ship = { name = "Œzel" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH } } }
+
+			ship = { name = "Attakra" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH } } }
+			#Dai 9 Kuchikutai
+			ship = { name = "Auçhlußa" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH } } }
+			ship = { name = "Itzaka" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH } } }
+			#Dai 21 Kuchikutai
+			ship = { name = "Schark" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH } } }
+			ship = { name = "Rattetuka" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Woksheła" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }		
+			ship = { name = "Warsche" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			#Dai 30 Kuchikutai
+			ship = { name = "Mirak" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Laz" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Krono" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Brokum" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+
+			ship = { name = "I-1" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-2" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }		
+			ship = { name = "I-3" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }			
+			ship = { name = "I-4" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-5" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-6" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-7" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-8" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-9" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-10" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-11" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-12" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-13" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-14" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-15" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-16" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-17" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-18" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-19" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-20" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-21" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+
+			#Dai 5 Kuchikutai
+			ship = { name = "Mikra" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Haria" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Khertuka" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Weidva" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+
+			ship = { name = "Athiena" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH version_name = "Klasska Jorketha" } } }
+			ship = { name = "Vodka" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Pappel" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Jukia" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Jaraka" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			ship = { name = "Zhasso" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			# Dai 3 Kuchikutai
+			ship = { name = "Anastasija" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Śtoçha" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Istaria" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Çhistekia" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			# Dai 10 Kuchikutai
+			ship = { name = "Zanon" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Kanon" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+		}
+	}
+	
+	#Sasebo (Nagasaki)
+	fleet = {
+		name = "Dvaken Flothia"			
+		naval_base = 13261  #Sasebo
+		task_force = {	
+			name = "2kn. Flothia"
+			location = 13261  #Sasebo
+			#Dai 5 Sentai
+			ship = { name = "Mark I" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }	
+			ship = { name = "Mark II" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Mark III" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Mark IV" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Mark V" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			#Dai 7 Sentai
+			ship = { name = "Albara" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Tuzherizzel" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			# Dai 2 Koku Sentai
+			#Flagship
+			ship = { name = "Maraka" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Makarina"} } }
+			#Dai 6 Kuchikutai, Type III Fubuki-class destroyers
+			ship = { name = "Tzarka" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			ship = { name = "Tzassa" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }		
+			ship = { name = "Pizkia" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Pissetulla" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }		
+			#Dai 8 Kuchikutai
+			ship = { name = "Nasak" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }			
+			ship = { name = "Akke" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			#Dai 19 Kuchikutai
+			ship = { name = "Uralia" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Vtakia" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Artinija" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			#Dai 20 Kuchikutai
+			ship = { name = "Luxenśtein" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }		
+			ship = { name = "Kastein" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			ship = { name = "Pi" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			#Dai 28 Kuchikutai
+			ship = { name = "Oria" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Nakasa" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+
+			#Flagship
+			ship = { name = "Kjassa" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }	
+			#Junsen-class Submarines
+			ship = { name = "I-22" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-23" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }		
+			ship = { name = "I-24" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-25" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }		
+			ship = { name = "I-26" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-27" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+
+			ship = { name = "Lieon" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Leviathan" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH} } }
+
+			ship = { name = "Rozelia" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			ship = { name = "Romana" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			ship = { name = "Klavdius" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			ship = { name = "Obirus" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH} } }
+			#Dai 22 Kuchikutai
+			ship = { name = "Mallaka-1" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-2" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-3" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-4" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			# Dai 23 Kuchikutai 
+			ship = { name = "Mallaka-5" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-6" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-7" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-8" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+		}
+	}
+	
+	#Taiwan (Goaxing)
+	fleet = {
+		name = "Vriken Flothia"			
+		naval_base = 13257	# Taiwan
+		task_force = {
+			name = "3kn. Flothia" #Later assigned for the Chinese theater
+			location = 13257	# Taiwan
+			#Dai 10 Sentai
+			ship = { name = "Płarka" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Wisła" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe" } } }
+			#Dai 11 Sentai, Momi-class destroyers
+			#Dai 25 Kuchikutai
+			ship = { name = "Kannal" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Schatum" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Ziathan" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Dai 26 Kuchikutai
+			ship = { name = "Kse-1" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-2" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-3" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-4" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Dai 27 Kuchikutai
+			ship = { name = "Kse-5" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-6" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-7" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Former Dai 28 Kuchikutai
+			ship = { name = "Kse-8" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-9" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-10" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Other Momi-Class destroyers
+			ship = { name = "Kse-11" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-12" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-13" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-14" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-15" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-16" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Flagship
+			ship = { name = "Kse-17" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			##Dai 13 Kuchikutai
+			ship = { name = "Kse-18" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-19" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-20" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			##Dai 16 Kuchikutai
+			ship = { name = "Kse-21" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-22" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }		
+			ship = { name = "Kse-23" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }		
+			#Dai 4 Kuchikutai
+			ship = { name = "Kse-24" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-25" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-26" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-27" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+		}
+	}
+
+	#Hiroshima (Kure)
+	fleet = {
+		name = "Vorken Flothia"			
+		naval_base = 13257  # Hiroshima
+		task_force = {
+			name = "4kn. Flothia" # Patrol and reserve fleet, including ships under modernization
+			location = 13257  # Hiroshima
+			ship = { name = "Rumia-1" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH version_name = "Klasska Rumia"} } }		
+			ship = { name = "Rumia-2" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH version_name = "Klasska Rumia"} } }
+			ship = { name = "Vitius-1" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Vitius-2" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Vitius-3" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Vitius-4" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kamaju" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			ship = { name = "Juri" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Jaroslava" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } } # at Maizuru
+			# Dai 11 Kuchikutai
+			ship = { name = "Ivana" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			ship = { name = "Impeka" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			# Dai 12 Kuchikutai
+			ship = { name = "Deußelła" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }		
+			ship = { name = "Sœzat" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Tchukova" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			# Dai 7 Kuchikutai
+			ship = { name = "Omega" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Kappa" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Mule" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			ship = { name = "Shimyytrova" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Shimyytrova"} } }
+			#Kaichu-class Submarines
+			ship = { name = "U-1" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-2" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-3" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-4" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-5" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-6" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-7" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			#Type L-class Submarines
+			ship = { name = "U-8" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-9" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-10" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-11" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-12" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-13" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-14" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-15" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-16" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-17" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-18" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-19" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-20" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-21" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }	
+		}
+	}
+
+	fleet = {
+		name = "Ceiken Flothia"			
+		naval_base = 13261  #Yokosuka
+		task_force = {
+			name = "5kn. Flothia"
+			location = 13261  #Yokosuka
+			#Dai 1 Sentai
+			ship = { name = "Schturk"  pride_of_the_fleet = yes definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH version_name = "Klasska Jorketha" } } }
+			ship = { name = "Stiek" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Arka" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Keisch" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH} } }
+			#Dai 8 Sentai
+			ship = { name = "Vruka" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Akła" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH } } }
+			ship = { name = "Œzel" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH } } }
+
+			ship = { name = "Attakra" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH } } }
+			#Dai 9 Kuchikutai
+			ship = { name = "Auçhlußa" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH } } }
+			ship = { name = "Itzaka" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH } } }
+			#Dai 21 Kuchikutai
+			ship = { name = "Schark" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH } } }
+			ship = { name = "Rattetuka" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Woksheła" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }		
+			ship = { name = "Warsche" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			#Dai 30 Kuchikutai
+			ship = { name = "Mirak" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Laz" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Krono" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Brokum" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+
+			ship = { name = "I-1" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-2" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }		
+			ship = { name = "I-3" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }			
+			ship = { name = "I-4" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-5" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-6" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-7" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-8" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-9" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-10" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-11" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-12" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-13" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-14" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-15" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-16" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-17" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-18" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-19" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-20" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+			ship = { name = "I-21" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }
+
+			#Dai 5 Kuchikutai
+			ship = { name = "Mikra" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Haria" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Khertuka" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Weidva" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+
+			ship = { name = "Athiena" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH version_name = "Klasska Jorketha" } } }
+			ship = { name = "Vodka" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Pappel" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Jukia" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Jaraka" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			ship = { name = "Zhasso" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			# Dai 3 Kuchikutai
+			ship = { name = "Anastasija" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Śtoçha" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Istaria" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Çhistekia" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			# Dai 10 Kuchikutai
+			ship = { name = "Zanon" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Kanon" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+		}
+	}
+
+	fleet = {
+		name = "Sekken Flothia"			
+		naval_base = 13261  #Sasebo
+		task_force = {	
+			name = "6kn. Flothia"
+			location = 13261  #Sasebo
+			#Dai 5 Sentai
+			ship = { name = "Mark I" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }	
+			ship = { name = "Mark II" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Mark III" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Mark IV" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Mark V" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			#Dai 7 Sentai
+			ship = { name = "Albara" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Tuzherizzel" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			# Dai 2 Koku Sentai
+			#Flagship
+			ship = { name = "Maraka" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Makarina"} } }
+			#Dai 6 Kuchikutai, Type III Fubuki-class destroyers
+			ship = { name = "Tzarka" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			ship = { name = "Tzassa" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }		
+			ship = { name = "Pizkia" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Pissetulla" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }		
+			#Dai 8 Kuchikutai
+			ship = { name = "Nasak" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }			
+			ship = { name = "Akke" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			#Dai 19 Kuchikutai
+			ship = { name = "Uralia" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Vtakia" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Artinija" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			#Dai 20 Kuchikutai
+			ship = { name = "Luxenśtein" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }		
+			ship = { name = "Kastein" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			ship = { name = "Pi" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			#Dai 28 Kuchikutai
+			ship = { name = "Oria" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Nakasa" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+
+			#Flagship
+			ship = { name = "Kjassa" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }	
+			#Junsen-class Submarines
+			ship = { name = "I-22" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-23" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }		
+			ship = { name = "I-24" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-25" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }		
+			ship = { name = "I-26" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-27" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+
+			ship = { name = "Lieon" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Leviathan" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH} } }
+
+			ship = { name = "Rozelia" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			ship = { name = "Romana" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			ship = { name = "Klavdius" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			ship = { name = "Obirus" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH} } }
+			#Dai 22 Kuchikutai
+			ship = { name = "Mallaka-1" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-2" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-3" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-4" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			# Dai 23 Kuchikutai 
+			ship = { name = "Mallaka-5" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-6" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-7" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-8" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+		}
+	}
+
+	fleet = {
+		name = "Semken Flothia"			
+		naval_base = 13257	# Taiwan
+		task_force = {
+			name = "7kn. Flothia" #Later assigned for the Chinese theater
+			location = 13257	# Taiwan
+			#Dai 10 Sentai
+			ship = { name = "Płarka" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Wisła" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe" } } }
+			#Dai 11 Sentai, Momi-class destroyers
+			#Dai 25 Kuchikutai
+			ship = { name = "Kannal" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Schatum" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Ziathan" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Dai 26 Kuchikutai
+			ship = { name = "Kse-1" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-2" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-3" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-4" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Dai 27 Kuchikutai
+			ship = { name = "Kse-5" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-6" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-7" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Former Dai 28 Kuchikutai
+			ship = { name = "Kse-8" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-9" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-10" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Other Momi-Class destroyers
+			ship = { name = "Kse-11" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-12" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-13" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-14" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-15" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-16" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Flagship
+			ship = { name = "Kse-17" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			##Dai 13 Kuchikutai
+			ship = { name = "Kse-18" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-19" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-20" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			##Dai 16 Kuchikutai
+			ship = { name = "Kse-21" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-22" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }		
+			ship = { name = "Kse-23" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }		
+			#Dai 4 Kuchikutai
+			ship = { name = "Kse-24" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-25" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-26" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-27" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+		}
+	}
+
+	#Hiroshima (Kure)
+	fleet = {
+		name = "Trutken Flothia"			
+		naval_base = 13257  # Hiroshima
+		task_force = {
+			name = "8kn. Flothia" # Patrol and reserve fleet, including ships under modernization
+			location = 13257  # Hiroshima
+			ship = { name = "Rumia-1" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH version_name = "Klasska Rumia"} } }		
+			ship = { name = "Rumia-2" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH version_name = "Klasska Rumia"} } }
+			ship = { name = "Vitius-1" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Vitius-2" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Vitius-3" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Vitius-4" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kamaju" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			ship = { name = "Juri" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Jaroslava" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } } # at Maizuru
+			# Dai 11 Kuchikutai
+			ship = { name = "Ivana" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			ship = { name = "Impeka" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			# Dai 12 Kuchikutai
+			ship = { name = "Deußelła" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }		
+			ship = { name = "Sœzat" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Tchukova" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			# Dai 7 Kuchikutai
+			ship = { name = "Omega" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Kappa" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Mule" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			ship = { name = "Shimyytrova" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Shimyytrova"} } }
+			#Kaichu-class Submarines
+			ship = { name = "U-1" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-2" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-3" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-4" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-5" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-6" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-7" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			#Type L-class Submarines
+			ship = { name = "U-8" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-9" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-10" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-11" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-12" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-13" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-14" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-15" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-16" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-17" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-18" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-19" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-20" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "U-21" definition = submarine equipment = { submarine_2 = {amount = 1 owner = SCH} } }	
+		}
+	}
+
+	fleet = {
+		name = "Nyekken Flothia"			
+		naval_base = 13261  #Sasebo
+		task_force = {	
+			name = "9kn. Flothia"
+			location = 13261  #Sasebo
+			#Dai 5 Sentai
+			ship = { name = "Mark I" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }	
+			ship = { name = "Mark II" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Mark III" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Mark IV" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			ship = { name = "Mark V" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Mark"} } }
+			#Dai 7 Sentai
+			ship = { name = "Albara" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Tuzherizzel" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			# Dai 2 Koku Sentai
+			#Flagship
+			ship = { name = "Maraka" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Makarina"} } }
+			#Dai 6 Kuchikutai, Type III Fubuki-class destroyers
+			ship = { name = "Tzarka" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			ship = { name = "Tzassa" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }		
+			ship = { name = "Pizkia" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Pissetulla" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }		
+			#Dai 8 Kuchikutai
+			ship = { name = "Nasak" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }			
+			ship = { name = "Akke" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			#Dai 19 Kuchikutai
+			ship = { name = "Uralia" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Vtakia" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }	
+			ship = { name = "Artinija" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			#Dai 20 Kuchikutai
+			ship = { name = "Luxenśtein" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }		
+			ship = { name = "Kastein" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			ship = { name = "Pi" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH version_name = "Klasska Akłakuma"} } }
+			#Dai 28 Kuchikutai
+			ship = { name = "Oria" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Nakasa" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+
+			#Flagship
+			ship = { name = "Kjassa" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }	
+			#Junsen-class Submarines
+			ship = { name = "I-22" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-23" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }		
+			ship = { name = "I-24" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-25" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }		
+			ship = { name = "I-26" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+			ship = { name = "I-27" definition = submarine equipment = { submarine_1 = {amount = 1 owner = SCH } } }	
+
+			ship = { name = "Lieon" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Leviathan" definition = battleship equipment = { battleship_2 = {amount = 1 owner = SCH} } }
+
+			ship = { name = "Rozelia" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			ship = { name = "Romana" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			ship = { name = "Klavdius" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			ship = { name = "Obirus" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH} } }
+			#Dai 22 Kuchikutai
+			ship = { name = "Mallaka-1" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-2" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-3" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-4" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			# Dai 23 Kuchikutai 
+			ship = { name = "Mallaka-5" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-6" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-7" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Mallaka-8" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+		}
+	}
+
+	fleet = {
+		name = "Rokken Flothia"			
+		naval_base = 13257	# Taiwan
+		task_force = {
+			name = "10kn. Flothia" #Later assigned for the Chinese theater
+			location = 13257	# Taiwan
+			#Dai 10 Sentai
+			ship = { name = "Płarka" definition = heavy_cruiser equipment = { heavy_cruiser_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Wisła" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe" } } }
+			#Dai 11 Sentai, Momi-class destroyers
+			#Dai 25 Kuchikutai
+			ship = { name = "Kannal" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Schatum" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Ziathan" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Dai 26 Kuchikutai
+			ship = { name = "Kse-1" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-2" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-3" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-4" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Dai 27 Kuchikutai
+			ship = { name = "Kse-5" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-6" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-7" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Former Dai 28 Kuchikutai
+			ship = { name = "Kse-8" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-9" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-10" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Other Momi-Class destroyers
+			ship = { name = "Kse-11" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-12" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-13" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-14" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-15" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-16" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			#Flagship
+			ship = { name = "Kse-17" definition = light_cruiser equipment = { light_cruiser_2 = {amount = 1 owner = SCH version_name = "Klasska Kłertuśe"} } }
+			##Dai 13 Kuchikutai
+			ship = { name = "Kse-18" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-19" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-20" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			##Dai 16 Kuchikutai
+			ship = { name = "Kse-21" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-22" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }		
+			ship = { name = "Kse-23" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }		
+			#Dai 4 Kuchikutai
+			ship = { name = "Kse-24" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-25" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-26" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+			ship = { name = "Kse-27" definition = destroyer equipment = { destroyer_2 = {amount = 1 owner = SCH} } }
+		}
+	}
+}

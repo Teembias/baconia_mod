@@ -1,0 +1,30 @@
+state={
+	id=930
+	name="STATE_930"
+	manpower = 818964
+	resources={
+		oil=12
+	}
+	state_category = rural
+
+	history={
+		victory_points = {
+			13362 50
+		}
+		owner = VON
+		buildings = {
+			industrial_complex = 2
+			13362 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = VON
+		add_core_of = SCH
+	}
+
+	provinces={
+		13359 13360 13361 13362
+	}
+
+	local_supplies=0.0
+}

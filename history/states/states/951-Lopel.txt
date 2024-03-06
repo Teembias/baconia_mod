@@ -1,0 +1,25 @@
+
+state={
+	id=951
+	name="STATE_951"
+	manpower = 199033
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			13492 25
+		}
+		owner = TAR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TAR
+	}
+
+	provinces={
+		13489 13490 13491 13492
+	}
+
+	local_supplies=8.0
+}

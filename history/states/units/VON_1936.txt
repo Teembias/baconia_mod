@@ -1,0 +1,150 @@
+﻿division_template = {
+
+	name = "Infanterie-division"	
+
+	division_names_group = CAN_GAR_01
+
+	regiments = {                     
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	  support = {
+	}
+}
+
+units = {
+	######## LAND UNITS ########
+	##### Kongelige Norwegan Overkommando #####
+	division = {
+		name = "1. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "2. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "3. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "4. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "5. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "6. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "7. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "8. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "9. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "10. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "11. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "12. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "13. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "14. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "15. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "16. Infanteriedivision"
+		location = 13300
+		division_template = "Infanterie-division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+}

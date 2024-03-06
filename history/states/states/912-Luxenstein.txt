@@ -1,0 +1,32 @@
+
+state={
+	id=912
+	name="STATE_912"
+	manpower = 1049584
+	resources={
+		tungsten=6
+	}
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			13270 25
+		}
+		add_extra_state_shared_building_slots = 4
+		owner = SCH
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 6
+		}
+		add_core_of = VON
+		add_core_of = SCH
+	}
+
+	provinces={
+		13267 13268 13269 13270 13271
+	}
+
+	local_supplies=15.0 
+}

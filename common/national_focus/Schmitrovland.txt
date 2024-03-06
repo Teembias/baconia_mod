@@ -1,0 +1,2876 @@
+﻿focus_tree = {
+
+	id = schmitrovland_focus                                          #id名稱，自己想
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SCH                                             #國家代碼
+			
+		}
+	
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 2500 }
+#--------------------------------------------------------------------------------
+#國策名稱，自己想
+
+
+################################################## 戰爭前 ##################################################
+
+
+	focus = {
+		id = SCH_convince_the_people                                    #該國策id
+		icon = GFX_focus_secret_rearmament                      #該國策圖片
+		
+		x = 1                                                    #該國策x軸
+		y = 0                                                     #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+						
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = {focus = }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			swap_ideas = {
+				remove_idea = SCH_low_legitimacy
+				add_idea = SCH_low_legitimacy_1
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 0.6
+		}
+	}
+
+	focus = {
+		id = SCH_build_defense_on_capital                                    #該國策id
+		icon = GFX_goal_generic_construct_infrastructure                      #該國策圖片
+		
+		x = 0                                                    #該國策x軸
+		y = 1                                                     #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = {focus = SCH_convince_the_people }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			916 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 13288
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 13289
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 13290
+					instant_build = yes
+				}
+			}
+			920 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 13311
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 13312
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 13309
+					instant_build = yes
+				}
+			}
+			917 = {
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 13293
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 13294
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 13295
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 4
+					province = 13297
+					instant_build = yes
+				}
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.6
+		}
+	}
+
+	focus = {
+		id = SCH_build_defense_on_western_vonkastein                                    #該國策id
+		icon = GFX_goal_generic_construct_infrastructure                      #該國策圖片
+		
+		x = 2                                                    #該國策x軸
+		y = 1                                                     #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+						
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = {focus = SCH_convince_the_people }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			915 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 13286
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 13287
+					instant_build = yes
+				}
+			}
+			914 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 13276
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 13279
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 13280
+					instant_build = yes
+				}
+			}
+			913 = {
+				add_building_construction = {
+					type = bunker
+					level = 3
+					province = 13275
+					instant_build = yes
+				}
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.6
+		}
+	}
+
+	focus = {
+		id = SCH_more_arm_factories                                    #該國策id
+		icon = GFX_goal_generic_construct_mil_factory                               #該國策圖片
+		
+		x = 1                                                     #該國策x軸
+		y = 2                                                     #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+						
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_build_defense_on_capital focus = SCH_build_defense_on_western_vonkastein }                                 #使用該國策的前置條件
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			every_owned_state = {
+				limit = {
+					NOT = { state = 916 state = 917 state = 920 }
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+	}
+
+	focus = {
+		id = SCH_annex_vonkastein                                    #該國策id
+		icon = GFX_focus_generic_strike_at_democracy2                               #該國策圖片
+		
+		relative_position_id = SCH_more_arm_factories
+		x = 0                                                     #該國策x軸
+		y = 1                                                 #該國策y軸
+		
+	
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+			OR = {
+				has_war_with = VON
+				VON = { 
+					OR = { 
+						exists = no
+						has_capitulated = yes
+					}
+				}
+			}
+		}
+		
+		
+		cost = 20                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_more_arm_factories }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus =  }                           #該國策與其他國策的衝突
+
+		will_lead_to_war_with = VON
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			create_wargoal = {
+				target = VON
+				type = annex_everything
+				expire = 0
+			}
+
+			hidden_effect = {
+			}
+		}
+		
+		ai_will_do = {
+			base = 0
+			modifier = { 
+				add = 1
+				AND = { 	
+					strength_ratio = { 
+						tag = VON
+						ratio > 0.4
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = SCH_focus_attack                                    #該國策id
+		icon = GFX_focus_generic_strike_at_democracy2                               #該國策圖片
+		
+		relative_position_id = SCH_more_arm_factories
+		x = -1                                                     #該國策x軸
+		y = 2                                                 #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+	
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+			VON = { 
+				OR = { 
+					exists = no
+					has_capitulated = yes
+				}
+			}
+		}
+		
+		
+		cost = 2                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_annex_vonkastein }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = SCH_focus_defense }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			add_timed_idea = {
+				idea = SCH_attack
+				days = 90
+			}
+		}
+		
+		ai_will_do = {
+			base = 0.8
+		}
+	}
+
+	focus = {
+		id = SCH_focus_defense                                    #該國策id
+		icon = GFX_focus_generic_anti_fascist_diplomacy                               #該國策圖片
+		
+		relative_position_id = SCH_more_arm_factories
+		x = 1                                                     #該國策x軸
+		y = 2                                                 #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+	
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+			VON = { 
+				OR = { 
+					exists = no
+					has_capitulated = yes
+				}
+			}
+		}
+		
+		
+		cost = 2                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_annex_vonkastein }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = SCH_focus_attack }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			add_timed_idea = {
+				idea = SCH_defense
+				days = 90
+			}
+		}
+		
+		ai_will_do = {
+			base = 0.2
+		}
+	}
+
+	focus = {
+		id = SCH_focus_slava_zieg                                    #該國策id
+		icon = GFX_focus_secret_rearmament                               #該國策圖片
+		
+		relative_position_id = SCH_more_arm_factories
+		x = 0                                                     #該國策x軸
+		y = 3                                                 #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+	
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_focus_attack focus = SCH_focus_defense }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			add_timed_idea = {
+				idea = SCH_slava_zieg
+				days = 180
+			}
+		}
+		
+		ai_will_do = {
+			base = 0.6
+		}
+	}
+
+	focus = {
+		id = SCH_the_heir_to_the_territory                                    #該國策id
+		icon = GFX_focus_generic_anti_fascist_diplomacy                               #該國策圖片
+		
+		relative_position_id = SCH_annex_vonkastein
+		x = 0                                                     #該國策x軸
+		y = 3                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+			AND = {
+				owns_state = 909
+				owns_state = 910
+				owns_state = 911
+				owns_state = 912
+				owns_state = 913
+				owns_state = 914
+				owns_state = 915
+				owns_state = 916
+				owns_state = 917
+				owns_state = 918
+				owns_state = 919
+				owns_state = 920
+				owns_state = 921
+				owns_state = 922
+				owns_state = 923
+				owns_state = 924
+				owns_state = 925
+				owns_state = 926
+				owns_state = 927
+				owns_state = 928
+				owns_state = 929
+				owns_state = 930
+			}
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+
+
+		}
+		
+		
+		cost = 1                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_focus_slava_zieg }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus =  }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			
+			remove_ideas = SCH_low_legitimacy_1
+			set_rule = { can_create_factions = yes }
+
+			hidden_effect = {
+				set_global_flag = SCH_VON_War_Ended
+				news_event = { id = schmitrovland.1 }
+			}
+
+		}
+		
+		ai_will_do = {
+		}
+
+	}
+
+
+################################################## 戰後發展 ##################################################
+
+	focus = {
+		id = SCH_focus_after_the_war                                    #該國策id
+		icon = GFX_focus_generic_anti_fascist_diplomacy                               #該國策圖片
+		
+		x = 8                                                     #該國策x軸
+		y = 0                                                     #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+			has_global_flag = SCH_VON_War_Ended
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 2                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			add_timed_idea = {
+				idea = SCH_after_the_war
+				days = 1065
+			}
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	focus = {
+		id = SCH_resources                                    #該國策id
+		icon = GFX_focus_generic_steel                               #該國策圖片
+		
+		relative_position_id = SCH_focus_after_the_war
+		x = -1                                                     #該國策x軸
+		y = 1                                                     #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+			has_global_flag = SCH_VON_War_Ended
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 4                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_focus_after_the_war }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			909 = {
+				add_resource = {
+					type = steel
+					amount = 96
+				}
+				add_resource = {
+					type = tungsten
+					amount = 128
+				}
+			}
+			911 = {
+				add_resource = {
+					type = aluminium
+					amount = 108
+				}
+				add_resource = {
+					type = chromium
+					amount = 72
+				}
+			}
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	focus = {
+		id = SCH_better_infrastructure                                    #該國策id
+		icon = GFX_goal_generic_construct_infrastructure                               #該國策圖片
+		
+		relative_position_id = SCH_focus_after_the_war
+		x = 1                                                     #該國策x軸
+		y = 1                                                     #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+			has_global_flag = SCH_VON_War_Ended
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 4                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_focus_after_the_war }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			every_owned_state = {
+				limit = {
+					NOT = { state = 916 state = 917 state = 918 state = 919 state = 920 state = 921 }
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	focus = {
+		id = SCH_university_of_science                                    #該國策id
+		icon = GFX_focus_research                               #該國策圖片
+		
+		relative_position_id = SCH_focus_after_the_war
+		x = -2                                                     #該國策x軸
+		y = 2                                                     #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+			has_global_flag = SCH_VON_War_Ended
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 3                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_resources focus = SCH_better_infrastructure }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			add_research_slot = 1
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	focus = {
+		id = SCH_focus_crazy_research                                    #該國策id
+		icon = GFX_focus_research                               #該國策圖片
+		
+		relative_position_id = SCH_focus_after_the_war
+		x = 2                                                     #該國策x軸
+		y = 2                                                     #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+			has_global_flag = SCH_VON_War_Ended
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 3                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_resources focus = SCH_better_infrastructure }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			add_research_slot = 1
+			add_ideas = SCH_crazy_research
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+	focus = {
+		id = SCH_focus_central_bank                                    #該國策id
+		icon = GFX_goal_generic_neutrality_focus                               #該國策圖片
+		
+		relative_position_id = SCH_focus_after_the_war
+		x = 0                                                     #該國策x軸
+		y = 2                                                     #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+			has_global_flag = SCH_VON_War_Ended
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 4                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_resources focus = SCH_better_infrastructure }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			add_ideas = SCH_central_bank
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+
+################################################ 國際主義路綫 ################################################
+
+
+
+	focus = {
+		id = SCH_internationalism_focus                                    #該國策id
+		icon = GFX_goal_support_communism                               #該國策圖片
+		
+		relative_position_id = SCH_the_heir_to_the_territory
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_the_heir_to_the_territory }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = SCH_keep_up_the_nationalism focus = SCH_focus_raise_of_taschkerija_royal_family }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			add_ideas = internationalism
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.2
+		}
+
+	}
+
+	focus = {
+		id = SCH_red_flag_flies_over_tchesnabel                                    #該國策id
+		icon = GFX_goal_support_communism                               #該國策圖片
+		
+		relative_position_id = SCH_internationalism_focus
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_internationalism_focus }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			start_civil_war = {
+				ruling_party = communism
+				# Original country's ideology changes to communism
+				ideology = ROOT
+				# Breakaway gets old ideology of ROOT
+				size = 0.8
+				capital = 916
+				states = {
+					909 910 911 912 913 914 915
+				}
+				keep_unit_leaders = {
+					909 910 911
+				}
+				keep_political_leader = yes
+				keep_political_party_members = yes
+			}
+			add_timed_idea = {
+				idea = SCH_defense
+				days = 180
+			}
+			add_timed_idea = {
+				idea = SCH_attack
+				days = 180
+			}
+			929 = {
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+				}
+				928 = {
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = SCH
+					}
+				}
+
+			hidden_effect = {
+				
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.6
+		}
+
+	}
+
+	focus = {
+		id = SCH_bring_revolution_to_islands                                    #該國策id
+		icon = GFX_goal_support_communism                               #該國策圖片
+		
+		relative_position_id = SCH_red_flag_flies_over_tchesnabel
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_red_flag_flies_over_tchesnabel }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			
+			TAR = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.4
+				}
+				start_civil_war = {
+					ruling_party = communism
+					# Original country's ideology changes to communism
+					ideology = neutrality
+					# Breakaway gets old ideology of ROOT
+					size = 0.2
+					capital = 978
+					states = {
+						965 966 967 968 969 970 971 972 973 974 975 976 977 978
+					}
+					keep_unit_leaders = {
+						949 950 951 952 953 954 955 956 957 958 959 960 961 962 963 964
+					}
+					keep_political_leader = yes
+					keep_political_party_members = yes
+				}
+			}
+			NOS = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.6
+				}
+				start_civil_war = {
+					ruling_party = communism
+					# Original country's ideology changes to communism
+					ideology = neutrality
+					# Breakaway gets old ideology of ROOT
+					size = 0.2
+					capital = 940
+					states = {
+						942 941 944 945 946 947 948
+					}
+					keep_unit_leaders = {
+						937 938 939 940 941
+					}
+					keep_political_leader = yes
+					keep_political_party_members = yes
+				}
+			}
+			hidden_effect = {
+				
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.6
+		}
+
+	}
+
+	focus = {
+		id = SCH_the_shimyytrov_comintern                                    #該國策id
+		icon = GFX_goal_support_communism                               #該國策圖片
+		
+		relative_position_id = SCH_bring_revolution_to_islands
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_bring_revolution_to_islands }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			
+			create_faction = SCH_comintern
+
+			SCH = { add_to_faction = TAR }
+			SCH = { add_to_faction = NOS }
+			SCH = { add_to_faction = STA }
+			SCH = { set_cosmetic_tag = SCH_greater }
+
+			hidden_effect = {
+				
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.6
+		}
+
+	}
+
+	focus = {
+		id = SCH_target_phi                                    #該國策id
+		icon = GFX_goal_support_communism                               #該國策圖片
+		
+		relative_position_id = SCH_the_shimyytrov_comintern
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_the_shimyytrov_comintern }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			set_autonomy = {
+				target = PHI
+				autonomy_state = autonomy_free
+				end_wars = no
+				end_civil_wars = no
+			}
+			PHI = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.4
+				}
+				start_civil_war = {
+					ruling_party = communism
+					# Original country's ideology changes to communism
+					ideology = democratic
+					# Breakaway gets old ideology of ROOT
+					size = 0.2
+					capital = 626
+					states = {
+						626 627 628 625
+					}
+					keep_unit_leaders = {
+						626 627 628 625
+					}
+					keep_political_leader = yes
+					keep_political_party_members = yes
+				}
+			}
+			SCH = { add_to_faction = PHI }
+
+			hidden_effect = {
+				
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.6
+		}
+
+	}
+
+	focus = {
+		id = SCH_target_mal                                    #該國策id
+		icon = GFX_goal_support_communism                               #該國策圖片
+		
+		relative_position_id = SCH_target_phi
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_target_phi }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			set_autonomy = {
+				target = MAL
+				autonomy_state = autonomy_free
+				end_wars = no
+				end_civil_wars = no
+			}
+			MAL = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.4
+				}
+				start_civil_war = {
+					ruling_party = communism
+					# Original country's ideology changes to communism
+					ideology = democratic
+					# Breakaway gets old ideology of ROOT
+					size = 0.2
+					capital = 336
+					states = {
+						336
+					}
+					keep_unit_leaders = {
+						336
+					}
+					keep_political_leader = yes
+					keep_political_party_members = yes
+				}
+			}
+			SCH = { add_to_faction = MAL }
+
+			hidden_effect = {
+				
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.6
+		}
+
+	}
+
+	focus = {
+		id = SCH_the_end_of_usa                                    #該國策id
+		icon = GFX_goal_support_communism                               #該國策圖片
+		
+		relative_position_id = SCH_target_mal
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_target_mal }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			USA = {
+				add_popularity = {
+					ideology = communism
+					popularity = 0.4
+				}
+				start_civil_war = {
+					ruling_party = communism
+					# Original country's ideology changes to communism
+					ideology = democratic
+					# Breakaway gets old ideology of ROOT
+					size = 0.4
+					capital = 369
+					states = {
+						386 385 378 377 379 387 380 377 388 381 382 376
+					}
+					keep_unit_leaders = {
+						386 385 378 377 379 387 380 377 388 381 382 376
+					}
+					keep_political_leader = yes
+					keep_political_party_members = yes
+				}
+			}
+
+			hidden_effect = {
+				
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.6
+		}
+
+	}
+
+
+################################################ 民族主義路綫 ################################################
+
+
+
+	focus = {
+		id = SCH_keep_up_the_nationalism                                    #該國策id
+		icon = GFX_goal_support_fascism                               #該國策圖片
+		
+		relative_position_id = SCH_internationalism_focus
+		x = 3                                                     #該國策x軸
+		y = 0                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_the_heir_to_the_territory }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = SCH_internationalism_focus focus = SCH_focus_raise_of_taschkerija_royal_family }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			add_ideas = nationalism
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 5
+		}
+
+	}
+
+	focus = {
+		id = SCH_focus_bring_the_entire_nation_to_arms                                    #該國策id
+		icon = GFX_goal_generic_major_war                               #該國策圖片
+		
+		relative_position_id = SCH_keep_up_the_nationalism
+		x = 0                                                   #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_keep_up_the_nationalism }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			add_ideas = SCH_bring_the_entire_nation_to_arms
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_focus_great_shimyytrov_militarism                                    #該國策id
+		icon = GFX_focus_generic_combined_arms                               #該國策圖片
+		
+		relative_position_id = SCH_focus_bring_the_entire_nation_to_arms
+		x = -1                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_focus_bring_the_entire_nation_to_arms }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			add_ideas = SCH_shimyytrov_militarism
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_focus_guardians_of_fatherland                                    #該國策id
+		icon = GFX_focus_generic_combined_arms                               #該國策圖片
+		
+		relative_position_id = SCH_focus_bring_the_entire_nation_to_arms
+		x = 1                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_focus_bring_the_entire_nation_to_arms }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			add_ideas = SCH_guardians_of_fatherland
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_ask_for_markajesch                                    #該國策id
+		icon = GFX_focus_generic_strike_at_democracy2                               #該國策圖片
+		
+		relative_position_id = SCH_focus_bring_the_entire_nation_to_arms
+		x = 0                                                     #該國策x軸
+		y = 2                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+			OR = {
+				has_war_with = NOS
+				NOS = { 
+					OR = { 
+						exists = no
+						has_capitulated = yes
+					}
+				}
+				SCH = {
+					owns_state = 937
+					owns_state = 938
+					owns_state = 939
+				}
+			}
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_focus_guardians_of_fatherland focus = SCH_focus_great_shimyytrov_militarism }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			937 = { add_claim_by = SCH }
+			938 = { add_claim_by = SCH }
+			939 = { add_claim_by = SCH }
+			NOS = { country_event = noschkarija.1 }
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+		}
+
+	}
+
+	focus = {
+		id = SCH_declare_war_on_noschkarija                                    #該國策id
+		icon = GFX_focus_secret_rearmament                               #該國策圖片
+		
+		relative_position_id = SCH_ask_for_markajesch
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+			OR = {
+				has_war_with = NOS
+				NOS = { 
+					OR = { 
+						exists = no
+						has_capitulated = yes
+					}
+				}
+			}
+		}
+		
+		
+		cost = 4                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_ask_for_markajesch }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = NOS
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			declare_war_on = { target = NOS type = annex_everything }
+			NOS = {
+				country_event = noschkarija.2
+			}
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+		}
+
+	}
+
+	focus = {
+		id = SCH_target_tarkovakha                                    #該國策id
+		icon = GFX_focus_target_tarkovakha                               #該國策圖片
+		
+		relative_position_id = SCH_declare_war_on_noschkarija
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+			OR = {
+				has_war_with = TAR
+				TAR = { 
+					OR = { 
+						exists = no
+						has_capitulated = yes
+					}
+				}
+			}
+		}
+		
+		
+		cost = 4                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_declare_war_on_noschkarija }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = TAR
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			declare_war_on = { target = TAR type = annex_everything }
+			add_timed_idea = {
+				idea = SCH_attack
+				days = 180
+			}
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+		}
+
+	}
+
+	focus = {
+		id = SCH_down_with_communism                                    #該國策id
+		icon = GFX_focus_secret_rearmament                               #該國策圖片
+		
+		relative_position_id = SCH_target_tarkovakha
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+			OR = {
+				has_war_with = STA
+				STA = { 
+					OR = { 
+						exists = no
+						has_capitulated = yes
+					}
+				}
+			}
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_target_tarkovakha }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = STA
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			declare_war_on = { target = STA type = annex_everything }
+			remove_ideas = SCH_attack
+			add_timed_idea = {
+				idea = SCH_attack
+				days = 180
+			}
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+		}
+
+	}
+
+	focus = {
+		id = SCH_limited_autonomy                                    #該國策id
+		icon = GFX_focus_generic_strike_at_democracy2                               #該國策圖片
+		
+		relative_position_id = SCH_down_with_communism
+		x = 1                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+			SCH = {
+				owns_state = 931
+				owns_state = 932
+				owns_state = 933
+				owns_state = 934
+				owns_state = 935
+				owns_state = 936
+			}
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+			STA = {
+				is_subject_of = SCH
+			}
+		}
+		
+		
+		cost = 2                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_down_with_communism }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = SCH_suppress_stark }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = STA
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			release_puppet = STA
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+		}
+
+	}
+
+	focus = {
+		id = SCH_suppress_stark                                    #該國策id
+		icon = GFX_focus_generic_strike_at_democracy2                               #該國策圖片
+		
+		relative_position_id = SCH_down_with_communism
+		x = -1                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+			SCH = {
+				owns_state = 931
+				owns_state = 932
+				owns_state = 933
+				owns_state = 934
+				owns_state = 935
+				owns_state = 936
+			}
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+			STA = {
+				is_subject_of = SCH
+			}
+		}
+		
+		
+		cost = 2                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_down_with_communism }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = SCH_limited_autonomy }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = STA
+
+		completion_reward = { 
+
+			custom_effect_tooltip = SCH_sta_anarchy
+
+			hidden_effect = {                                   #該國策完成時的獎勵
+				set_global_flag = STA_anarchy
+				SCH = {
+					delete_unit = {
+						state = 931
+						disband = yes #will refund equipment and manpower
+					}
+					delete_unit = {
+						state = 932
+						disband = yes #will refund equipment and manpower
+					}
+					delete_unit = {
+						state = 933
+						disband = yes #will refund equipment and manpower
+					}
+					delete_unit = {
+						state = 934
+						disband = yes #will refund equipment and manpower
+					}
+					delete_unit = {
+						state = 935
+						disband = yes #will refund equipment and manpower
+					}
+				}
+				STA = {
+					set_politics = {
+						ruling_party = neutrality
+					}
+					transfer_state = 931
+					transfer_state = 932
+					transfer_state = 933
+					declare_war_on = {
+						target = SCH
+						type = take_state_focus
+						generator = { 934 935 936 }
+					}
+					add_popularity = {
+						ideology = neutrality
+						popularity = 60
+					}
+					931 = {
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+					}
+					932 = {
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+						create_unit = {
+							division = "name = \"Strelkovaya Diviziya\" division_template = \"Strelkovaya Diviziya\" start_experience_factor = 0.5"
+							owner = STA
+						}
+					}
+				}
+			}
+		}
+		
+		ai_will_do = {
+		}
+
+	}
+
+
+################################################ 王國主義路綫 ################################################
+
+
+
+	focus = {
+		id = SCH_focus_raise_of_taschkerija_royal_family                                    #該國策id
+		icon = GFX_focus_generic_monarchy_1                               #該國策圖片
+		
+		relative_position_id = SCH_keep_up_the_nationalism
+		x = 6                                                     #該國策x軸
+		y = 0                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_the_heir_to_the_territory }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = SCH_internationalism_focus focus = SCH_keep_up_the_nationalism }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			add_ideas = SCH_raise_of_taschkerija_royal_family
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_kavkhov_coronation                                    #該國策id
+		icon = GFX_focus_generic_monarchy_1                               #該國策圖片
+		
+		relative_position_id = SCH_focus_raise_of_taschkerija_royal_family
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_focus_raise_of_taschkerija_royal_family }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			set_politics = {
+				ruling_party = neutrality
+				elections_allowed = no
+			}
+
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_peaceful_route                                    #該國策id
+		icon = GFX_focus_generic_anti_fascist_diplomacy                               #該國策圖片
+		
+		relative_position_id = SCH_kavkhov_coronation
+		x = -2                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 1                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_kavkhov_coronation }                                 #使用該國策的前置條件
+		mutually_exclusive = { focus = SCH_a_greater_nation }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			country_event = { id = schmitrovland.4 }
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_a_greater_nation                                    #該國策id
+		icon = GFX_focus_generic_strike_at_democracy2                               #該國策圖片
+		
+		relative_position_id = SCH_kavkhov_coronation
+		x = 2                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 1                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_kavkhov_coronation }                                 #使用該國策的前置條件
+		mutually_exclusive = { focus = SCH_peaceful_route }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			country_event = { id = schmitrovland.5 }
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+
+	}
+
+
+################################################ 王國主義和平 ################################################
+
+
+
+	focus = {
+		id = SCH_protect_islands                                    #該國策id
+		icon = GFX_focus_generic_anti_fascist_diplomacy                               #該國策圖片
+		
+		relative_position_id = SCH_peaceful_route
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_peaceful_route }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {     
+			create_faction = SCH_coalition                                #該國策完成時的獎勵
+			NOS = {
+				country_event = { id = schmitrovland.6 }
+			}
+			TAR = {
+				country_event = { id = schmitrovland.6 }
+			}
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_eradicate_communist_threat                                    #該國策id
+		icon = GFX_focus_secret_rearmament                               #該國策圖片
+		
+		relative_position_id = SCH_protect_islands
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+			OR = {
+				has_war_with = STA
+				STA = { 
+					OR = { 
+						exists = no
+						has_capitulated = yes
+					}
+				}
+			}
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_protect_islands }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = STA
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			declare_war_on = { target = STA type = annex_everything }
+			remove_ideas = SCH_attack
+			add_timed_idea = {
+				idea = SCH_attack
+				days = 180
+			}
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+		}
+
+	}
+
+	focus = {
+		id = SCH_the_threat_of_JAP                                    #該國策id
+		icon = GFX_focus_jap_showa_restoration                               #該國策圖片
+		
+		relative_position_id = SCH_eradicate_communist_threat
+		x = -1                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+			JAP = {
+				has_government = fascism
+			}
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+			OR = {
+				has_war_with = JAP
+				JAP = { 
+					OR = { 
+						exists = no
+						has_capitulated = yes
+					}
+				}
+			}
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_eradicate_communist_threat }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = SCH_bypass_JAP }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = STA
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			declare_war_on = { target = JAP type = annex_everything }
+			remove_ideas = SCH_attack
+			add_timed_idea = {
+				idea = SCH_attack
+				days = 180
+			}
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+		}
+
+	}
+
+	focus = {
+		id = SCH_bypass_JAP                                    #該國策id
+		icon = GFX_focus_generic_anti_fascist_diplomacy                               #該國策圖片
+		
+		relative_position_id = SCH_eradicate_communist_threat
+		x = 1                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_eradicate_communist_threat }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = SCH_the_threat_of_JAP }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = STA
+
+		completion_reward = {                                     #該國策完成時的獎勵
+			add_ideas = SCH_guardians_of_fatherland
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+		}
+
+	}
+
+
+################################################ 王國主義擴張 ################################################
+
+
+
+	focus = {
+		id = SCH_force_NOS_to_join                                    #該國策id
+		icon = GFX_focus_secret_rearmament                               #該國策圖片
+		
+		relative_position_id = SCH_a_greater_nation
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+			OR = {
+				has_war_with = NOS
+				NOS = { 
+					OR = { 
+						exists = no
+						has_capitulated = yes
+					}
+				}
+			}
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_a_greater_nation }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {     
+			NOS = {
+				country_event = { id = noschkarija.3 }
+			}
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_force_TAR_to_join                                    #該國策id
+		icon = GFX_focus_target_tarkovakha                               #該國策圖片
+		
+		relative_position_id = SCH_force_NOS_to_join
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+			OR = {
+				has_war_with = TAR
+				TAR = { 
+					OR = { 
+						exists = no
+						has_capitulated = yes
+					}
+				}
+			}
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_force_NOS_to_join }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {     
+			TAR = {
+				country_event = { id = noschkarija.3 }
+			}
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_invite_JAP                                    #該國策id
+		icon = GFX_focus_jap_showa_restoration                               #該國策圖片
+		
+		relative_position_id = SCH_force_TAR_to_join
+		x = -1                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+			JAP = {
+				has_government = neutrality
+			}
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+			OR = {
+				has_war_with = JAP
+				JAP = { 
+					OR = { 
+						exists = no
+						has_capitulated = yes
+					}
+				}
+			}
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_force_TAR_to_join }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {   
+			create_faction = SCH_tsar_faction
+			set_global_flag = SCH_JAP_ally
+			JAP = {
+				country_event = { id = schmitrovland.8 }
+			}
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_support_anarchist_movement_in_STA                                    #該國策id
+		icon = GFX_focus_generic_anti_fascist_diplomacy                               #該國策圖片
+		
+		relative_position_id = SCH_force_TAR_to_join
+		x = 1                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+			
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_force_TAR_to_join }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			create_faction = SCH_tsar_faction
+			STA = {
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.4
+				}
+				start_civil_war = {
+					ruling_party = neutrality
+					# Original country's ideology changes to communism
+					ideology = communism
+					# Breakaway gets old ideology of ROOT
+					size = 0.2
+					capital = 931
+					states = {
+						931 932
+					}
+					keep_unit_leaders = {
+						931 932
+					}
+					keep_political_leader = yes
+					keep_political_party_members = yes
+				}
+			}
+			SCH = { add_to_faction = STA }
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_anti_communist_policy                                    #該國策id
+		icon = GFX_goal_anti_comintern_pact                               #該國策圖片
+		
+		relative_position_id = SCH_force_TAR_to_join
+		x = 0                                                     #該國策x軸
+		y = 2                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+			
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_invite_JAP focus = SCH_support_anarchist_movement_in_STA }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_ideas = SCH_anti_communist_policy_idea
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_war_to_ussr                                    #該國策id
+		icon = GFX_goal_generic_war_with_comintern                               #該國策圖片
+		
+		relative_position_id = SCH_anti_communist_policy
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+			OR = {				
+				has_war_with = SOV
+				has_wargoal_against = SOV
+			}
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_anti_communist_policy }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		will_lead_to_war_with = SOV
+
+		completion_reward = {
+			create_wargoal = {
+				target = SOV
+				type = annex_everything
+				expire = 0
+			}
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_kutwor_rise                                    #該國策id
+		icon = GFX_focus_target_tarkovakha                               #該國策圖片
+		
+		relative_position_id = SCH_war_to_ussr
+		x = 0                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_war_to_ussr }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			set_autonomy = {
+				target = KTV
+				autonomy_state = autonomy_free
+				end_wars = no
+				end_civil_wars = no
+			}
+			SCH = { add_to_faction = KTV }
+			242 = { add_core_of = KTV }
+			246 = { add_core_of = KTV }
+			207 = { add_core_of = KTV }
+			210 = { add_core_of = KTV }
+			810 = { add_core_of = KTV }
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_revenge_to_estonia                                    #該國策id
+		icon = GFX_focus_target_tarkovakha                               #該國策圖片
+		
+		relative_position_id = SCH_kutwor_rise
+		x = -1                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_kutwor_rise }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			KTV = {
+				create_wargoal = {
+					target = EST
+					type = annex_everything
+					expire = 0
+				}
+				create_wargoal = {
+					target = LAT
+					type = annex_everything
+					expire = 0
+				}
+			}
+			813 = { add_core_of = KTV }
+			191 = { add_core_of = KTV }
+			812 = { add_core_of = KTV }
+			13 = { add_core_of = KTV }
+			811 = { add_core_of = KTV }
+			12 = { add_core_of = KTV }
+			808 = { add_core_of = KTV }
+			809 = { add_core_of = KTV }
+			190 = { add_core_of = KTV }
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_return_to_leningrad                                    #該國策id
+		icon = GFX_focus_target_tarkovakha                               #該國策圖片
+		
+		relative_position_id = SCH_kutwor_rise
+		x = 1                                                     #該國策x軸
+		y = 1                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_kutwor_rise }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			264 = { add_core_of = KTV }
+			263 = { add_core_of = KTV }
+			209 = { add_core_of = KTV }
+			244 = { add_core_of = KTV }
+			208 = { add_core_of = KTV }
+			195 = { add_core_of = KTV }
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+	focus = {
+		id = SCH_kutwor_our_motherland                                    #該國策id
+		icon = GFX_focus_target_tarkovakha                               #該國策圖片
+		
+		relative_position_id = SCH_kutwor_rise
+		x = 0                                                     #該國策x軸
+		y = 2                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+			KTV = {
+				owns_state = 195
+			}
+		}
+		 
+		bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = SCH_revenge_to_estonia focus = SCH_return_to_leningrad }                                 #使用該國策的前置條件
+		mutually_exclusive = { }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			KTV = {
+				set_capital = { state = 195 }
+			}
+			set_province_name = {
+				id = 3151
+				name = VICTORY_POINTS_3151_KTV
+			}
+			hidden_effect = {
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+
+	}
+
+}

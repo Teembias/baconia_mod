@@ -1,0 +1,33 @@
+
+state={
+	id=952
+	name="STATE_952"
+	manpower = 239584
+	
+	state_category = town
+	resources={
+		steel=64
+		chromium=48
+		tungsten=88
+		aluminium=64
+		rubber=54
+		oil=32
+	}
+
+	history={
+		victory_points = {
+			13493 25
+		}
+		owner = TAR
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TAR
+	}
+
+	provinces={
+		13493 13494 13495 13496
+	}
+
+	local_supplies=8.0
+}

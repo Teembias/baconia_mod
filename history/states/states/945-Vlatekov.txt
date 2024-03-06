@@ -1,0 +1,30 @@
+
+state={
+	id=945
+	name="STATE_945"
+	manpower = 784773
+	
+	state_category = city
+	resources={
+		steel=102
+		chromium=127
+	}
+
+	history={
+		victory_points = {
+			13461 10
+		}
+		owner = NOS
+		buildings = {
+			industrial_complex = 4
+			infrastructure = 3
+		}
+		add_core_of = NOS
+	}
+
+	provinces={
+		13460 13461 13462 13463
+	}
+
+	local_supplies=10.0
+}

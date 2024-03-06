@@ -1,0 +1,29 @@
+
+state={
+	id=981
+	name="STATE_981"
+	manpower = 134059
+	
+	state_category = small_island
+	resources={
+	}
+
+	history={
+		owner = NOS
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			13632 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = VON
+		add_core_of = SCH
+	}
+
+	provinces={
+		13632 13633 13634 13635 13636 13637 13638 13639
+	}
+
+	local_supplies=0.0
+}

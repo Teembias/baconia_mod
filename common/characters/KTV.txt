@@ -1,0 +1,131 @@
+characters = {
+	KTV_IOskin = {
+		name = KTV_IOskin
+		portraits = {
+			civilian = {
+				large = GFX_IOskin
+			}
+		}
+		country_leader = {
+			ideology = nazism
+		}
+	}
+	
+	SCH_TVSchmierat = {
+		name = SCH_TVSchmierat
+		portraits = {
+			civilian = {
+				large = GFX_TVSchmierat
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			desc = SCH_TVSchmierat_desc
+		}
+	}
+
+	SCH_NKRashtequil = {
+		name = SCH_NKRashtequil
+		portraits = {
+			civilian = {
+				large = GFX_NKRashtequil
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+		}
+	}
+
+	SCH_KASchaefer = {
+		name = SCH_KASchaefer
+		portraits = {
+			civilian = {
+				large = GFX_KASchaefer
+			}
+		}
+		country_leader = {
+			ideology = despotism
+		}
+	}
+
+	SCH_Katharyna_Athinipisa_Fattukova = { 
+		name= SCH_KAFattukova
+		portraits={
+			army={
+				small=GFX_idea_k_a_fattukova
+			}
+		}
+		field_marshal = {
+			traits = { army_chief_reform_3 }
+				skill = 2
+			attack_skill = 2
+			defense_skill = 1ka
+			planning_skill = 1
+			logistics_skill = 2
+			id = -1
+		}
+		advisor = {
+			slot = army_chief
+			cost = 150
+			idea_token = SCH_Katharyna_Athinipisa_Fattukova
+			allowed = {  }
+			available = {
+			}
+			traits = { army_chief_reform_3 }
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+
+	SCH_Khermann_Otto_Soewatis={
+		name=SCH_KhOSoewatis
+		portraits={
+			army={
+				small="GFX_idea_kh_o_soewatis"
+			}
+		}
+		advisor={
+			slot = air_chief
+			idea_token = soewatis
+			allowed = {
+				original_tag = SCH
+			}
+			available = {
+				has_government = fascism
+			}
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+
+	SCH_Torgojev_Kathetius_Mueller={
+		name=SCH_TKMueller
+		portraits={
+			army={
+				small="GFX_idea_t_k_Mueller"
+			}
+		}
+		advisor={
+			slot = navy_chief
+			idea_token = TKMueller
+			allowed = {
+				original_tag = SCH
+			}
+			available = {
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+}

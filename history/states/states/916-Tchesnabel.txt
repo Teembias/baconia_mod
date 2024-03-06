@@ -1,0 +1,29 @@
+
+state={
+	id=916
+	name="STATE_916"
+	manpower = 5751851
+	
+	state_category = megalopolis
+
+	history={
+		victory_points = {
+			13290 96
+		}
+		owner = SCH
+		buildings = {
+			arms_factory = 4
+			industrial_complex = 4
+			infrastructure = 3
+			air_base = 3
+		}
+		add_core_of = VON
+		add_core_of = SCH
+	}
+
+	provinces={
+		13288 13289 13290 13291 13292
+	}
+
+	local_supplies=12.0 
+}

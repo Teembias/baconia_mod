@@ -1,0 +1,74 @@
+add_namespace = noschkarija
+country_event = {
+	id = noschkarija.1
+	title = noschkarija.1.t
+	desc = noschkarija.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { # Breaking point!
+		name = noschkarija.1.a
+		ai_chance = { factor = 90 }
+		effect_tooltip = {
+			SCH = {
+				transfer_state = 937
+				transfer_state = 938
+				transfer_state = 939
+				add_war_support = 0.05
+				country_event = { id = schmitrovland.2 }
+			}
+		}
+		hidden_effect = {
+			SCH = {
+				country_event = { id = schmitrovland.2 }
+			}
+		}
+	}
+	option = { # Make more concessions
+		name = noschkarija.1.b
+		ai_chance = { factor = 10 }
+		SCH = {
+			country_event = { id = schmitrovland.3 }
+		}
+	}
+}
+
+country_event = {
+	id = noschkarija.2
+	title = noschkarija.2.t
+	desc = noschkarija.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { # Breaking point!
+		name = noschkarija.2.a
+	}
+}
+
+country_event = {
+	id = noschkarija.3
+	title = noschkarija.3.t
+	desc = noschkarija.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { # Breaking point!
+		name = noschkarija.3.a
+		ai_chance = { factor = 100 }
+		SCH = {
+			annex_country = {
+				target = ROOT
+				transfer_troops = yes
+			}
+		}
+	}
+	option = { # Breaking point!
+		name = noschkarija.3.b
+		SCH = {
+			country_event = { id = schmitrovland.7 }
+		}
+	}
+}

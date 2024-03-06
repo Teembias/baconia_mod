@@ -1,0 +1,28 @@
+
+state={
+	id=919
+	name="STATE_919"
+	manpower = 3983951
+	
+	state_category = metropolis
+
+	history={
+		victory_points = {
+			13305 60
+		}
+		owner = VON
+		buildings = {
+			arms_factory = 4
+			industrial_complex = 4
+			infrastructure = 3
+		}
+		add_core_of = VON
+		add_core_of = SCH
+	}
+
+	provinces={
+		13303 13304 13305 13306 13307
+	}
+
+	local_supplies=12.0 
+}

@@ -1,0 +1,23 @@
+state={
+	id=925
+	name="STATE_925"
+	manpower = 623919
+	state_category = town
+
+	history={
+		add_extra_state_shared_building_slots = 4
+		owner = VON
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		add_core_of = VON
+		add_core_of = SCH
+	}
+
+	provinces={
+		13331 13332 13333 13334 13335 13336
+	}
+
+	local_supplies=0.0
+}

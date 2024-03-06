@@ -1,0 +1,49 @@
+characters = {
+	TAR_NKAleksandrov = {
+		name = TAR_NKAleksandrov
+		portraits = {
+			civilian = {
+				large = GFX_Portrait_Soviet_Generic_3
+			}
+		}
+		country_leader = {
+			ideology = nazism
+		}
+	}
+	
+	TAR_KhMKulikov = {
+		name = TAR_KhMKulikov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_sidor_kovpak
+			}
+		}
+		country_leader = {
+			ideology = leninism
+		}
+	}
+
+	TAR_IANikolayev = {
+		name = TAR_IANikolayev
+		portraits = {
+			civilian = {
+				large = GFX_portrait_SOV_andrey_vlasov
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+		}
+	}
+
+	TAR_VRNovikov = {
+		name = TAR_VRNovikov
+		portraits = {
+			civilian = {
+				large = GFX_portrait_POL_boleslaw_wieniawa_dlugoszowski
+			}
+		}
+		country_leader = {
+			ideology = despotism
+		}
+	}
+}

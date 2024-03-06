@@ -1,0 +1,328 @@
+SCH_road_to_greater_shimyytrov = {
+	SCH_consolidate_noschkarija = {
+
+		ai_will_do = {
+                  factor = 100
+		}
+
+		allowed = { 
+			original_tag = SCH
+		}
+
+		available = {
+                  custom_trigger_tooltip = {
+                        tooltip = SCH_own_nos
+                        controls_state = 937
+                        controls_state = 938
+                        controls_state = 939
+                        controls_state = 940
+                        controls_state = 941
+                        controls_state = 942
+                        controls_state = 943
+                        controls_state = 944
+                        controls_state = 945
+                        controls_state = 946
+                        controls_state = 947
+                        controls_state = 948
+                  }
+		}
+
+		visible = {
+                  OR = {
+                        has_government = fascism
+                        has_global_flag = SCH_greater_sch_road
+                  }
+
+                  NOT = { has_global_flag = SCH_ctrl_nos }
+		}
+
+		complete_effect = {
+                  custom_effect_tooltip = SCH_get_nos
+                  hidden_effect = {
+                        set_global_flag = SCH_ctrl_nos
+                        937 = { add_core_of = SCH }
+                        938 = { add_core_of = SCH }
+                        939 = { add_core_of = SCH }
+                        940 = { add_core_of = SCH }
+                        941 = { add_core_of = SCH }
+                        942 = { add_core_of = SCH }
+                        943 = { add_core_of = SCH }
+                        944 = { add_core_of = SCH }
+                        945 = { add_core_of = SCH }
+                        946 = { add_core_of = SCH }
+                        947 = { add_core_of = SCH }
+                        948 = { add_core_of = SCH }
+                  }
+		}
+
+		modifier = {
+		}
+	}
+
+      SCH_consolidate_tarkovakha = {
+
+		ai_will_do = {
+                  factor = 100
+		}
+
+		allowed = { 
+			original_tag = SCH
+		}
+
+		available = {
+                  custom_trigger_tooltip = {
+                        tooltip = SCH_own_tar
+                        controls_state = 949
+                        controls_state = 950
+                        controls_state = 951
+                        controls_state = 952
+                        controls_state = 953
+                        controls_state = 954
+                        controls_state = 955
+                        controls_state = 956
+                        controls_state = 957
+                        controls_state = 958
+                        controls_state = 959
+                        controls_state = 960
+                        controls_state = 961
+                        controls_state = 962
+                        controls_state = 963
+                        controls_state = 964
+                        controls_state = 965
+                        controls_state = 966
+                        controls_state = 970
+                        controls_state = 971
+                        controls_state = 972
+                        controls_state = 973
+                        controls_state = 977
+                        controls_state = 978
+                  }
+		}
+
+		visible = {
+                  OR = {
+                        has_government = fascism
+                        has_global_flag = SCH_greater_sch_road
+                  }
+
+                  NOT = { has_global_flag = SCH_ctrl_tar }
+		}
+
+		complete_effect = {
+                  custom_effect_tooltip = SCH_get_tar
+
+                  hidden_effect = {
+                        set_global_flag = SCH_ctrl_tar
+                        940 = { add_core_of = SCH }
+                        941 = { add_core_of = SCH }
+                        942 = { add_core_of = SCH }
+                        943 = { add_core_of = SCH }
+                        944 = { add_core_of = SCH }
+                        945 = { add_core_of = SCH }
+                        946 = { add_core_of = SCH }
+                        947 = { add_core_of = SCH }
+                        948 = { add_core_of = SCH }
+                        949 = { add_core_of = SCH }
+                        950 = { add_core_of = SCH }
+                        951 = { add_core_of = SCH }
+                        952 = { add_core_of = SCH }
+                        953 = { add_core_of = SCH }
+                        954 = { add_core_of = SCH }
+                        955 = { add_core_of = SCH }
+                        956 = { add_core_of = SCH }
+                        957 = { add_core_of = SCH }
+                        958 = { add_core_of = SCH }
+                        959 = { add_core_of = SCH }
+                        960 = { add_core_of = SCH }
+                        961 = { add_core_of = SCH }
+                        962 = { add_core_of = SCH }
+                        963 = { add_core_of = SCH }
+                        964 = { add_core_of = SCH }
+                        965 = { add_core_of = SCH }
+                        966 = { add_core_of = SCH }
+                        970 = { add_core_of = SCH }
+                        971 = { add_core_of = SCH }
+                        972 = { add_core_of = SCH }
+                        973 = { add_core_of = SCH }
+                        977 = { add_core_of = SCH }
+                        978 = { add_core_of = SCH }
+                        979 = { add_core_of = SCH }
+                  }
+		}
+
+		modifier = {
+		}
+	}
+
+      SCH_decision_long_live_shimyytrov = {
+
+		ai_will_do = {
+                  factor = 100
+		}
+
+		allowed = { 
+			original_tag = SCH
+		}
+
+		available = {
+                  has_global_flag = SCH_ctrl_nos
+                  has_global_flag = SCH_ctrl_tar
+		}
+
+		visible = {
+                  OR = {
+                        has_government = fascism
+                        has_global_flag = SCH_greater_sch_road
+                  }
+
+                  NOT = { has_global_flag = SCH_be_greater }
+		}
+
+		complete_effect = {
+                  ROOT = {
+                        set_cosmetic_tag = SCH_greater
+                  }
+
+                  hidden_effect = {
+                        set_global_flag = SCH_be_greater
+                  }
+		}
+
+		modifier = {
+		}
+	}
+
+      SCH_decision_release_kutwor = {
+
+		ai_will_do = {
+                  factor = 100
+		}
+
+		allowed = { 
+			original_tag = SCH
+		}
+
+		available = {
+                  has_global_flag = SCH_be_greater
+		}
+
+		visible = {
+                  OR = {
+                        has_government = fascism
+                        has_global_flag = SCH_greater_sch_road
+                  }
+
+                  NOT = { has_global_flag = SCH_ktv_puppet }
+		}
+
+		complete_effect = {
+                  release_puppet = KTV
+                  KTV = {
+                        add_ideas = SCH_autonomy
+                  }
+                  hidden_effect = {
+                        set_global_flag = SCH_ktv_puppet
+                        975 = {
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = KTV
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = KTV
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = KTV
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = KTV
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = KTV
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = KTV
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = KTV
+					}
+                        }
+                  }
+		}
+
+		modifier = {
+		}
+	}
+
+      SCH_decision_release_hurijastan = {
+
+		ai_will_do = {
+                  factor = 100
+		}
+
+		allowed = { 
+			original_tag = SCH
+		}
+
+		available = {
+                  has_global_flag = SCH_be_greater
+		}
+
+		visible = {
+                  OR = {
+                        has_government = fascism
+                        has_global_flag = SCH_greater_sch_road
+                  }
+
+                  NOT = { has_global_flag = SCH_hur_puppet }
+		}
+
+		complete_effect = {
+                  release_puppet = HUR
+                  HUR = {
+                        add_ideas = SCH_autonomy
+                  }
+                  hidden_effect = {
+                        set_global_flag = SCH_hur_puppet
+                        926 = {
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = HUR
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = HUR
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = HUR
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = HUR
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = HUR
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = HUR
+					}
+					create_unit = {
+						division = "name = \"Infantry Division\" division_template = \"Infanteriedivision\" start_experience_factor = 0.5"
+						owner = HUR
+					}
+                        }
+                  }
+		}
+
+		modifier = {
+		}
+	}
+}

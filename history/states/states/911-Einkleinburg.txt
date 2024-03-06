@@ -1,0 +1,32 @@
+
+state={
+	id=911
+	name="STATE_911"
+	manpower = 405969
+	resources={
+		tungsten=1
+	}
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			13266 10
+		}
+		add_extra_state_shared_building_slots = 4
+		owner = SCH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			dockyard = 4
+		}
+		add_core_of = VON
+		add_core_of = SCH
+	}
+
+	provinces={
+		13265 13266
+	}
+
+	local_supplies=0.0 
+}

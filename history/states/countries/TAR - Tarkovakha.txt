@@ -1,0 +1,101 @@
+﻿capital = 955
+
+oob="TAR_1936"
+
+set_research_slots = 4
+
+add_ideas = {
+	limited_conscription
+}
+
+set_stability = 0.7
+set_war_support = 0.3
+
+add_political_power = 50
+add_command_power = 25
+add_manpower = 1077934
+
+recruit_character = TAR_NKAleksandrov
+recruit_character = TAR_KhMKulikov
+recruit_character = TAR_IANikolayev
+recruit_character = TAR_VRNovikov
+
+set_technology = {
+	interwar_artillery = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	support_weapons = 1
+	#doctrines
+	air_superiority = 1
+	grand_battle_plan = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	battlefleet_concentration = 1
+	submarine_operations = 1
+	#electronics
+	electronic_mechanical_engineering = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	support_equipment = 1
+}
+
+set_convoys = 200		# biggest merchant marine in the world
+
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 12
+	fascism = 20
+	communism = 13
+	neutrality = 55
+}
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		panzerschiffe = 1
+		pre_dreadnoughts = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		mtg_transport = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_depth_charges = 1
+		sonar = 1
+		basic_cruiser_armor_scheme = 1
+	}
+}

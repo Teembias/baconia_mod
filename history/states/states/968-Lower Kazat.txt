@@ -1,0 +1,36 @@
+
+state={
+	id=968
+	name="STATE_968"
+	manpower = 1102938
+	
+	state_category = large_city
+	resources={
+		steel=128
+		aluminium=128
+		oil=12
+	}
+
+	history={
+		victory_points = {
+			13590 2
+		}
+		owner = TAR
+		buildings = {
+			arms_factory = 4
+			dockyard = 4
+			infrastructure = 2
+			13590 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = TAR
+		add_core_of = KTV
+	}
+
+	provinces={
+		13587 13588 13589 13590 13591
+	}
+
+	local_supplies=12.0
+}

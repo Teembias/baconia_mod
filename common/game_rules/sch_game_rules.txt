@@ -1,0 +1,35 @@
+SCH_ai_behavior = {
+	name = "SCH_AI_BEHAVIOR"
+	group = "RULE_GROUP_AI_BEHAVIOR"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_AI_DESC"
+	}
+	option = {
+		name = COMMUNIST_SCH
+		text = "RULE_OPTION_COMMUNIST_SCH"
+		desc = "RULE_OPTION_COMMUNIST_SCH_AI_DESC"
+	}
+	option = {
+		name = FASCIST_SCH
+		text = "RULE_OPTION_FASCIST_SCH"
+		desc = "RULE_OPTION_FASCIST_SCH_AI_DESC"
+		allow_achievements = yes
+	}
+	option = {
+		name = TASCHKERIJA
+		text = "RULE_OPTION_TASCHKERIJA_SCH"
+		desc = "RULE_OPTION_TASCHKERIJA_SCH_AI_DESC"
+	}
+	option = {
+		name = TASCHKERIJA_greater
+		text = "RULE_OPTION_TASCHKERIJA_greater_SCH"
+		desc = "RULE_OPTION_TASCHKERIJA_greater_SCH_AI_DESC"
+	}
+	option = {
+		name = RANDOM
+		text = "RULE_OPTION_RANDOM"
+		desc = "RULE_OPTION_RANDOM_AI_DESC"
+	}
+}

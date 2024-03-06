@@ -1,0 +1,121 @@
+##### USSR NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+SCH_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { SCH }
+
+	type = ship
+	ship_types = { ship_hull_light destroyer }			
+
+    prefix = "SCK "
+	fallback_name = "Krorrupteŕ %d"					
+
+	unique = {											
+		# Starting with Leningrad and Gnevny classes
+		"Tchesnabel'" "Dunkelheit" "Scheinhardt" 
+		"Stanlej" "Snata" "Ors Kuinja" "Kasharia" "Vylaslavy" "Jermaka" "Aleksandrowitsch" "Kattoria" "Njapasha" "Volks" "Satina" "Ermasha" "Gramila" "Gromky" "Sila"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+SCH_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { SCH }
+
+	type = ship
+	ship_types = { ship_hull_cruiser light_cruiser }
+	
+    prefix = "SKS "
+	fallback_name = "Leiçhes Kreutzenschiff %d"
+
+	unique = {
+		"Schaxen" "Einkleinburg" "Volteśtein" "Luxenśtein" "Łakoblinśe" "Martzenburg" "Müçhtośtein" "Münzenburg" "Lyçhteśtein" "Keitzer" "Manfred" "Rozel" 
+		"Bunhderśtein" "Kleilburg" "Friedriçh" "Surçhis"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+SCH_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { SCH }
+
+	type = ship
+	ship_types = { ship_hull_cruiser heavy_cruiser }
+	
+    prefix = "SKS "
+	fallback_name = "Kreutzenschiff %d"
+
+	unique = {
+		"Kraśtein" "Tseskva" "Gorshekva" "Kalgrad" "Nejinskva" "Vlatekov" "Sörte" "Lokovtana" "Alpha" "Schreinkämf" "Schartestein" "Keteturpel"
+	}
+}
+
+### BATTLESHIP NAMES ###
+SCH_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { SCH }
+
+	type = ship
+	ship_types = { ship_hull_heavy battleship }
+	
+    prefix = "SSS "
+	fallback_name = "Schlaçhtschiff %d"		
+
+	unique = {
+			"Vlabelkva" "Dimikov" "Lopel" "Jelshkov" "Rastovkrins" "Khartugrad" "Jashekva" "Vlashgrad" "Traskiva" "Zabelkva"
+	}
+}
+
+### BATTLECRUISER NAMES ###
+SCH_BC_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BC
+
+	for_countries = { SCH }
+
+	type = ship
+	ship_types = { ship_hull_heavy battle_cruiser }
+	
+    prefix = "SKS "
+	fallback_name = "Schlaçht-Kreutzenschiff %d"		
+
+	unique = {
+			"Pepel" "Jazhneva" "Zherkov" "Kazat" "Mortsiv" "Aleksandrovgrad" "Shugsat" "Katest" "Artekislekov"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+SCH_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { SCH }
+
+	type = ship
+	ship_types = { ship_hull_carrier carrier }
+	
+    prefix = "SFT "
+	fallback_name = "Flugkeuschtrageneŕ %d"	
+
+	unique = {
+			"Glostov" "Nashkudizieg" "Mourhnathreinsch" "Simbag" "Kanatis" "Shimyytrova" "Tarkov" "Farista" "Omega" "Vasof" "Lasfakash" "Kutvoran" "Parkoburg" "Leviathan" "Kashkakhorkov"
+	}
+}
+
+### SUBMARINES ###
+SCH_SS_SHCHUKA = {
+	name = NAME_THEME_HISTORICAL_SHCHUKAS
+
+	for_countries = { SCH }
+
+	type = ship
+	ship_types = { ship_hull_submarine submarine }
+	
+	fallback_name = "UŚ-%d"
+	
+	ordered = {
+
+	}
+}

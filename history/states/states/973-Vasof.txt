@@ -1,0 +1,29 @@
+
+state={
+	id=973
+	name="STATE_973"
+	manpower = 1938475
+	
+	state_category = city
+	resources={
+	}
+
+	history={
+		victory_points = {
+			13609 30
+		}
+		owner = TAR
+		buildings = {
+			industrial_complex = 3
+			infrastructure = 3
+		}
+		add_core_of = TAR
+		add_core_of = KTV
+	}
+
+	provinces={
+		13607 13608 13609
+	}
+
+	local_supplies=12.0
+}

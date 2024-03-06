@@ -1,0 +1,31 @@
+
+state={
+	id=966
+	name="STATE_966"
+	manpower = 998475
+	
+	state_category = city
+	resources={
+		steel=34
+		chromium=30
+	}
+
+	history={
+		victory_points = {
+			13575 25
+		}
+		owner = TAR
+		buildings = {
+			arms_factory = 3
+			infrastructure = 3
+		}
+		add_core_of = TAR
+		add_core_of = KTV
+	}
+
+	provinces={
+		13575 13576 13577 13578 13579
+	}
+
+	local_supplies=12.0
+}

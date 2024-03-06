@@ -1,0 +1,34 @@
+
+state={
+	id=914
+	name="STATE_914"
+	manpower = 911851
+	resources={
+		rubber=18
+		steel=10
+		chromium=64
+	}
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			13276 15
+		}
+		add_extra_state_shared_building_slots = 4
+		owner = SCH
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 6
+		}
+		add_core_of = VON
+		add_core_of = SCH
+	}
+
+	provinces={
+		13276 13277 13278 13279 13280 13281 13282
+	}
+
+	local_supplies=15.0 
+}

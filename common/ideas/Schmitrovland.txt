@@ -1,0 +1,266 @@
+ideas = {
+
+	country = {
+
+		SCH_low_legitimacy = {
+			picture = gre_schachtplan
+
+			allowed = {
+				original_tag = SCH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.5
+				war_support_factor = -0.5
+			}
+		}
+
+		SCH_low_legitimacy_1 = {
+			picture = gre_schachtplan
+
+			allowed = {
+				original_tag = SCH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.15
+			}
+		}
+
+		SCH_slava_zieg = {
+			picture = gre_schachtplan
+
+			allowed = {
+				original_tag = SCH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = +0.05
+				war_support_weekly = +0.05
+			}
+		}
+
+		SCH_attack = {
+			picture = war_economy
+
+			allowed = {
+				original_tag = SCH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 3
+			}
+		}
+
+		SCH_defense = {
+			picture = war_economy
+
+			allowed = {
+				original_tag = SCH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_defence_factor = 3
+			}
+		}
+
+		SCH_after_the_war = {
+			picture = war_economy
+
+			allowed = {
+				original_tag = SCH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				stability_weekly = +0.005
+				war_support_weekly = +0.005
+				production_speed_buildings_factor = +5
+				production_factory_efficiency_gain_factor = +0.5
+				production_factory_max_efficiency_factor = +0.5
+			}
+		}
+
+		SCH_raise_of_taschkerija_royal_family = {
+			picture = office_of_strategic_services
+
+			allowed = {
+				original_tag = SCH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				neutrality_drift = 0.1
+			}
+		}
+
+		SCH_bring_the_entire_nation_to_arms = {
+			picture = scraping_the_barrel
+
+			allowed = {
+				original_tag = SCH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				weekly_manpower = 1500
+				war_support_factor = 0.5
+			}
+		}
+
+		SCH_crazy_research = {
+			picture = gre_schachtplan
+
+			allowed = {
+				original_tag = SCH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				research_speed_factor = 2
+			}
+		}
+
+		SCH_central_bank = {
+			picture = generic_economic_increase
+
+			allowed = {
+				original_tag = SCH
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+			}
+		}
+
+		SCH_anti_communist_policy_idea = {
+			picture = gre_schachtplan
+
+			allowed = {
+				original_tag = SCH
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = -0.03
+			}
+		}
+
+	}
+
+	hidden_ideas = {
+		
+		SCH_shimyytrov_militarism = {
+			picture = extensive_conscription
+
+			allowed = {
+				original_tag = SCH
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				war_support_factor = 0.1
+				offensive_war_stability_factor = 0.3
+				army_attack_factor = 1
+			}
+		}
+
+		SCH_guardians_of_fatherland = {
+			picture = all_adults_serve
+
+			allowed = {
+				original_tag = SCH
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				defensive_war_stability_factor = 0.5
+				army_defence_factor = 3
+				army_core_attack_factor = 5
+			}
+		}
+
+		SCH_autonomy = {
+			picture = all_adults_serve
+
+			allowed = {
+				original_tag = KTV
+				original_tag = HUR
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				cic_to_overlord_factor = 0
+				mic_to_overlord_factor = 0
+				autonomy_manpower_share = 0
+				stability_factor = 0.25
+				industrial_capacity_factory = 1
+				industrial_capacity_dockyard = 0.3
+				consumer_goods_factor = -0.95
+				weekly_manpower = 2000
+				army_attack_factor = 1
+				army_defence_factor = 3
+			}
+		}
+	}
+
+}

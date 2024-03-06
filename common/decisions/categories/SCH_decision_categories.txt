@@ -1,0 +1,9 @@
+SCH_road_to_greater_shimyytrov = {
+
+	visible = {
+	}
+
+	allowed = {
+		original_tag = SCH
+	}
+}

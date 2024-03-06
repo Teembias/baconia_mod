@@ -1,0 +1,33 @@
+
+state={
+	id=934
+	name="STATE_934"
+	manpower = 2794821
+	
+	state_category = large_city
+	resources={
+		steel=96
+		chromium=96
+		tungsten=48
+		aluminium=128
+	}
+
+	history={
+		victory_points = {
+			13398 64
+		}
+		owner = STA
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 4
+			infrastructure = 3
+		}
+		add_core_of = STA
+	}
+
+	provinces={
+		13390 13391 13392 13393 13394 13395 13396 13397 13398 13399
+	}
+
+	local_supplies=12.0
+}

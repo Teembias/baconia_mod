@@ -1,0 +1,28 @@
+
+state={
+	id=970
+	name="STATE_970"
+	manpower = 295868
+	
+	state_category = rural
+	resources={
+	}
+
+	history={
+		victory_points = {
+		}
+		owner = TAR
+		buildings = {
+			dockyard = 2
+			infrastructure = 2
+		}
+		add_core_of = TAR
+		add_core_of = KTV
+	}
+
+	provinces={
+		13597 13598 13599 13600
+	}
+
+	local_supplies=12.0
+}

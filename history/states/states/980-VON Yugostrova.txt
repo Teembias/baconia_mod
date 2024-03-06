@@ -1,0 +1,30 @@
+
+state={
+	id=980
+	name="STATE_980"
+	manpower = 121300
+	
+	state_category = small_island
+	resources={
+	}
+
+	history={
+		owner = VON
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			13631 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = VON
+		add_core_of = SCH
+		add_claim_by = TAR
+	}
+
+	provinces={
+		13628 13629 13630 13631
+	}
+
+	local_supplies=0.0
+}

@@ -1,0 +1,617 @@
+﻿focus_tree = {
+
+	id = vonkastein_focus                                          #id名稱，自己想
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VON                                             #國家代碼
+			
+		}
+	
+	}
+	
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+#--------------------------------------------------------------------------------
+#國策名稱，自己想
+	focus = {
+		id = VON_develop_the_fatherland                                    #該國策id
+		icon = GFX_goal_generic_production2                      #該國策圖片
+		
+		x = 3                                                    #該國策x軸
+		y = 0                                                     #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+						
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = {focus = }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+		
+		add_political_power = 244 
+			
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	focus = {
+		id = VON_improve_the_infrastructures                                    #該國策id
+		icon = GFX_goal_generic_construct_infrastructure                      #該國策圖片
+		
+		x = 0                                                    #該國策x軸
+		y = 1                                                     #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+						
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = {focus = VON_develop_the_fatherland }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			every_owned_state = {
+				limit = {
+					NOT = { state = 918 state = 919 state = 921 }
+				}
+
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	focus = {
+		id = VON_eastern_vonkastein_industry                                    #該國策id
+		icon = GFX_goal_generic_construct_mil_factory                      #該國策圖片
+		
+		x = 2                                                    #該國策x軸
+		y = 1                                                     #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+						
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = {focus = VON_develop_the_fatherland }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			every_owned_state = {
+				limit = {
+					NOT = { NOT = { state = 930 state = 929 } }
+				}
+
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	focus = {
+		id = VON_the_capital_industry                                    #該國策id
+		icon = GFX_goal_generic_construct_civ_factory                               #該國策圖片
+		
+		x = 1                                                     #該國策x軸
+		y = 2                                                     #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+						
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = VON_improve_the_infrastructures }                                 #使用該國策的前置條件
+		prerequisite = { focus = VON_eastern_vonkastein_industry }
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			every_owned_state = {
+				limit = {
+					NOT = { NOT = { state = 918 state = 919 state = 921 } }
+				}
+
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = industrial_complex
+					level = 4
+					instant_build = yes
+				}
+			}
+			add_timed_idea = {
+				idea = VON_the_developed_capital
+				days = 180
+			}
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	focus = {
+		id = VON_eastern_vonkastein_steel_plant                                    #該國策id
+		icon = GFX_focus_generic_steel                      #該國策圖片
+		
+		x = 4                                                    #該國策x軸
+		y = 1                                                     #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+						
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = {focus = VON_develop_the_fatherland }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			930 = {
+				add_resource = {
+					type = steel
+					amount = 18
+				}
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+	focus = {
+		id = VON_more_resources_in_northern_vonkastein                                    #該國策id
+		icon = GFX_goal_generic_construct_civilian                               #該國策圖片
+		
+		x = 4                                                     #該國策x軸
+		y = 2                                                     #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+						
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = {focus = VON_eastern_vonkastein_steel_plant }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			924 = {
+				add_resource = {
+					type = steel
+					amount = 14
+				}
+				add_resource = {
+					type = tungsten
+					amount = 24
+				}
+			}
+			923 = {
+				add_resource = {
+					type = aluminium
+					amount = 52
+				}
+				add_resource = {
+					type = chromium
+					amount = 48
+				}
+			}
+			
+		}
+		
+		ai_will_do = {
+			factor = 2
+		}
+	}
+
+####################################### 戰爭綫 ###########################################
+
+	focus = {
+		id = VON_anti_shimyytrov_war                                    #該國策id
+		icon = GFX_focus_secret_rearmament                               #該國策圖片
+		
+		x = 8                                                     #該國策x軸
+		y = 0                                                     #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+						
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 4                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			remove_ideas = VON_first_anti_shimyytrov_war
+			add_timed_idea = {
+				idea = VON_prepare_for_the_second_anti_shimyytrov_war
+				days = 720
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.8
+		}
+	}
+
+	focus = {
+		id = VON_more_civ_factory                                    #該國策id
+		icon = GFX_goal_generic_construct_civ_factory                               #該國策圖片
+		
+		relative_position_id = VON_anti_shimyytrov_war
+		x = -1                                                     #該國策x軸
+		y = 1                                                     #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+						
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = VON_anti_shimyytrov_war }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = VON_more_mil_factory }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			every_owned_state = {
+				limit = {
+					NOT = { state = 918 state = 919 state = 921 }
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.4
+		}
+	}
+
+	focus = {
+		id = VON_more_mil_factory                                    #該國策id
+		icon = GFX_goal_generic_construct_mil_factory                               #該國策圖片
+		
+		relative_position_id = VON_anti_shimyytrov_war
+		x = 1                                                     #該國策x軸
+		y = 1                                                     #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+						
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 5                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = VON_anti_shimyytrov_war }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus = VON_more_civ_factory }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			every_owned_state = {
+				limit = {
+					NOT = { state = 918 state = 919 state = 921 }
+				}
+
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+
+		}
+		
+		ai_will_do = {
+			factor = 0.5
+		}
+	}
+
+	focus = {
+		id = VON_produce_more                                    #該國策id
+		icon = GFX_goal_generic_production                               #該國策圖片
+		
+		relative_position_id = VON_anti_shimyytrov_war
+		x = 0                                                     #該國策x軸
+		y = 2                                                   #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+						
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+		}
+		
+		
+		cost = 10                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = VON_more_civ_factory focus = VON_more_mil_factory }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus =  }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			swap_ideas = {
+				remove_idea = VON_prepare_for_the_second_anti_shimyytrov_war
+				add_idea = VON_prepare_for_the_second_anti_shimyytrov_war_1
+			}
+		}
+		
+		ai_will_do = {
+			
+		}
+	}
+
+	focus = {
+		id = VON_fur_unser_vaterland                                    #該國策id
+		icon = GFX_focus_generic_strike_at_democracy2                               #該國策圖片
+		
+		relative_position_id = VON_anti_shimyytrov_war
+		x = 0                                                     #該國策x軸
+		y = 3                                                   #該國策y軸
+		
+		
+		available = {                                         #能使用該國策的條件
+			SCH = { 
+				OR = { 
+					exists = yes
+					has_capitulated = no
+					is_puppet = no
+				}
+			}	
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+			SCH = { 
+				OR = { 
+					exists = no
+					has_capitulated = yes
+				}
+			}
+		}
+		
+		
+		cost = 20                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = VON_produce_more }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus =  }                           #該國策與其他國策的衝突
+
+		will_lead_to_war_with = SCH
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			create_wargoal = {
+				target = SCH
+				type = annex_everything
+				expire = 0
+			}
+			remove_ideas = VON_prepare_for_the_second_anti_shimyytrov_war_1
+			add_timed_idea = {
+				idea = VON_second_anti_shimyytrov_war
+				days = 90
+			}
+
+			hidden_effect = {
+				news_event = { id = vonkastein.2 }
+			}
+		}
+		
+		ai_will_do = {
+			base = 0
+			modifier = { 
+				add = 1
+				AND = { 	
+					strength_ratio = { 
+						tag = SCH
+						ratio > 0.4
+					}
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = VON_glory_to_the_victory                                    #該國策id
+		icon = GFX_focus_generic_anti_fascist_diplomacy                               #該國策圖片
+		
+		relative_position_id = VON_anti_shimyytrov_war
+		x = 0                                                     #該國策x軸
+		y = 4                                                   #該國策y軸
+		
+		
+		available = {                                        #能使用該國策的條件
+			AND = {
+				owns_state = 909
+				owns_state = 910
+				owns_state = 911
+				owns_state = 912
+				owns_state = 913
+				owns_state = 914
+				owns_state = 915
+				owns_state = 916
+				owns_state = 917
+				owns_state = 918
+				owns_state = 919
+				owns_state = 920
+				owns_state = 921
+				owns_state = 922
+				owns_state = 923
+				owns_state = 924
+				owns_state = 925
+				owns_state = 926
+				owns_state = 927
+				owns_state = 928
+				owns_state = 929
+				owns_state = 930
+			}
+		}
+		 
+		 bypass = {                                               #該國策因甚麼原因直接跳過
+
+
+
+		}
+		
+		
+		cost = 1                                                  #花費時間，7的倍數，填5 = 35天
+		prerequisite = { focus = VON_fur_unser_vaterland }                                 #使用該國策的前置條件
+		mutually_exclusive = {focus =  }                           #該國策與其他國策的衝突
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {                                     #該國策完成時的獎勵
+
+			set_capital = { state = 916 }
+			add_timed_idea = {
+				idea = VON_postwar_reconstruction
+				days = 365
+			}
+
+			hidden_effect = {
+				news_event = { id = vonkastein.1 }
+			}
+
+		}
+		
+		ai_will_do = {
+
+	}

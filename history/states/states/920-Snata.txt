@@ -1,0 +1,28 @@
+
+state={
+	id=920
+	name="STATE_920"
+	manpower = 4041941
+	
+	state_category = metropolis
+
+	history={
+		victory_points = {
+			13310 64
+		}
+		owner = SCH
+		buildings = {
+			arms_factory = 4
+			industrial_complex = 4
+			infrastructure = 3
+		}
+		add_core_of = VON
+		add_core_of = SCH
+	}
+
+	provinces={
+		13308 13309 13310 13311 13312
+	}
+
+	local_supplies=12.0 
+}

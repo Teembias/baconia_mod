@@ -1,0 +1,37 @@
+
+state={
+	id=909
+	name="STATE_909"
+	manpower = 750491
+	resources={
+		tungsten=12 # was: 70
+		steel= 8 # was: 80
+		chromium = 1 # was: 40
+	}
+	
+	state_category = rural
+
+	history={
+		victory_points = {
+			13259 15
+		}
+		add_extra_state_shared_building_slots = 4
+		owner = SCH
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 4
+			13257 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = VON
+		add_core_of = SCH
+	}
+
+	provinces={
+		13257 13258 13259 13260
+	}
+
+	local_supplies=0.0 
+}

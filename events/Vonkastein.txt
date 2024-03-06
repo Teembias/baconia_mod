@@ -1,0 +1,57 @@
+add_namespace = vonkastein
+news_event = {
+	id = vonkastein.1
+	title = vonkastein.1.t
+	desc = vonkastein.1.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vonkastein.1"}
+	major = yes
+	picture = GFX_news_event_MLY_ahmad_victory
+	is_triggered_only = yes
+	option = {
+		name = vonkastein.1.a
+		trigger = {
+			has_war_with = VON
+		}
+	}
+	option = {
+		name = vonkastein.1.b
+		trigger = {
+			NOT = { tag = VON has_war_with = VON }
+		}
+	}
+	option = {
+		name = vonkastein.1.self
+		trigger = {
+			tag = VON
+		}
+	}
+
+}
+news_event = {
+	id = vonkastein.2
+	title = vonkastein.2.t
+	desc = vonkastein.2.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vonkastein.2"}
+	major = yes
+	picture = GFX_report_event_soldiers_marching
+	is_triggered_only = yes
+	option = {
+		name = vonkastein.2.a
+		trigger = {
+			tag = SCH
+		}
+	}
+	option = {
+		name = vonkastein.2.self
+		trigger = {
+			tag = VON
+		}
+	}
+	option = {
+		name = vonkastein.2.b
+		trigger = {
+			NOT = { tag = VON tag = SCH }
+		}
+	}
+
+}

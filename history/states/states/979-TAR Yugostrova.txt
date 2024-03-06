@@ -1,0 +1,36 @@
+
+state={
+	id=979
+	name="STATE_979"
+	manpower = 120000
+	
+	state_category = small_island
+	resources={
+	}
+
+	history={
+		victory_points = {
+			13626 2
+		}
+		owner = TAR
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			13625 = {
+				naval_base = 4
+			}
+			13627 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = TAR
+		add_claim_by = VON
+		add_claim_by = SCH
+	}
+
+	provinces={
+		13625 13626 13627
+	}
+
+	local_supplies=0.0
+}

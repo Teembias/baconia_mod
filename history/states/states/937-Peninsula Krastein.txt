@@ -1,0 +1,32 @@
+
+state={
+	id=937
+	name="STATE_937"
+	manpower = 849582
+	
+	state_category = city
+	resources={
+		steel=64
+		chromium=44
+		tungsten=88
+		aluminium=225
+	}
+
+	history={
+		victory_points = {
+			13420 20
+		}
+		owner = NOS
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 2
+		}
+		add_core_of = NOS
+	}
+
+	provinces={
+		13420 13421 13422 13423 13424 13425 13426 13427
+	}
+
+	local_supplies=12.0
+}

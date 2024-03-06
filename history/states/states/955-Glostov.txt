@@ -1,0 +1,27 @@
+
+state={
+	id=955
+	name="STATE_955"
+	manpower = 9958475
+	
+	state_category = megalopolis
+
+	history={
+		victory_points = {
+			13507 96
+		}
+		owner = TAR
+		buildings = {
+			arms_factory = 8
+			industrial_complex = 2
+			infrastructure = 4
+		}
+		add_core_of = TAR
+	}
+
+	provinces={
+		13507 13508 13509
+	}
+
+	local_supplies=12.0
+}

@@ -1,0 +1,75 @@
+SCH_historical_plan = {
+	name = "SCH historical plan"
+	desc = ""
+
+	allowed = {
+		original_tag = SCH
+	}
+	enable = {
+		OR = {
+			AND = {
+				is_historical_focus_on = yes
+				has_game_rule = {
+					rule = SCH_ai_behavior
+					option = DEFAULT
+				}
+			}
+			has_game_rule = {
+				rule = SCH_ai_behavior
+				option = FASCIST_SCH
+			}
+		}
+	}
+	abort = {
+		is_subject = yes
+	}
+
+	ai_national_focuses = {
+		SCH_convince_the_people
+		SCH_build_defense_on_capital
+		SCH_build_defense_on_western_vonkastein
+		SCH_more_arm_factories
+		SCH_focus_attack
+		SCH_focus_slava_zieg
+		#after war
+		SCH_the_heir_to_the_territory
+		SCH_keep_up_the_nationalism
+		SCH_focus_after_the_war
+		SCH_resources
+		SCH_better_infrastructure
+		SCH_focus_crazy_research
+		SCH_university_of_science
+		SCH_focus_bring_the_entire_nation_to_arms
+		SCH_focus_central_bank
+		SCH_focus_great_shimyytrov_militarism
+		SCH_focus_guardians_of_fatherland
+		SCH_ask_for_markajesch
+		SCH_declare_war_on_noschkarija
+		SCH_target_tarkovakha
+		SCH_down_with_communism
+		SCH_limited_autonomy
+	}
+
+	research = {
+
+	}
+
+	ideas = {
+
+	}
+	traits = {
+
+	}
+
+	
+
+	# Keep small, as it is used as a factor for some things (such as research needs)
+	# Recommended around 1.0. Useful for relation between plans
+	weight = {
+		factor = 1.0
+		modifier = {
+			factor = 1.0
+		}
+	}
+
+}

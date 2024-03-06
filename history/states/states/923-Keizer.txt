@@ -1,0 +1,26 @@
+state={
+	id=923
+	name="STATE_923"
+	manpower = 618491
+	state_category = rural
+
+	history={
+		victory_points = {
+			13324 24
+		}
+		add_extra_state_shared_building_slots = 4
+		owner = VON
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		add_core_of = VON
+		add_core_of = SCH
+	}
+
+	provinces={
+		13321 13322 13323 13324
+	}
+
+	local_supplies=0.0
+}

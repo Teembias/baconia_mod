@@ -1,0 +1,26 @@
+state={
+	id=959
+	name="STATE_959"
+	manpower = 12019488
+	
+	state_category = large_city
+
+	history={
+		victory_points = {
+			13523 72
+		}
+		owner = TAR
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 4
+			infrastructure = 4
+		}
+		add_core_of = TAR
+	}
+
+	provinces={
+		13522 13523 13524 13525
+	}
+
+	local_supplies=12.0
+}

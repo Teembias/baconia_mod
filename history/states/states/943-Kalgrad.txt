@@ -1,0 +1,26 @@
+
+state={
+	id=943
+	name="STATE_943"
+	manpower = 748573
+	
+	state_category = large_city
+
+	history={
+		victory_points = {
+			13453 15
+		}
+		owner = NOS
+		buildings = {
+			industrial_complex = 4
+			infrastructure = 3
+		}
+		add_core_of = NOS
+	}
+
+	provinces={
+		13450 13451 13452 13453
+	}
+
+	local_supplies=10.0
+}

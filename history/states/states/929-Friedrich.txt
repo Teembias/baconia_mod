@@ -1,0 +1,31 @@
+state={
+	id=929
+	name="STATE_929"
+	manpower = 539481
+	resources={
+		chromium=13
+	}
+	state_category = rural
+
+	history={
+		victory_points = {
+			13355 50
+		}
+		add_extra_state_shared_building_slots = 2
+		owner = VON
+		buildings = {
+			industrial_complex = 2
+			13355 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = VON
+		add_core_of = SCH
+	}
+
+	provinces={
+		13355 13356 13357 13358
+	}
+
+	local_supplies=0.0
+}

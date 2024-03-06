@@ -1,0 +1,36 @@
+﻿l_english:
+ 
+ # VONKASTEIN FOCUSES
+ VON_the_developed_capital:0 "被開發的首都"
+ VON_the_developed_capital_desc:0 "我們開發了首都和附近的州，並獲得了民眾的支持。"
+ VON_first_anti_shimyytrov_war:0 "第一次反希米特羅夫戰爭"
+ VON_first_anti_shimyytrov_war_desc:0 "那些侵略者正在威脅我們人民的生命安全！如果我們不迅速採取行動，情況恐怕會變得更糟......"
+ VON_prepare_for_the_second_anti_shimyytrov_war:0 "準備第二次反希米特羅夫戰爭"
+ VON_prepare_for_the_second_anti_shimyytrov_war_desc:0 "我們告訴了我們的人民去準備下一場戰爭。"
+ VON_prepare_for_the_second_anti_shimyytrov_war_1:0 "準備第二次反希米特羅夫戰爭"
+ VON_prepare_for_the_second_anti_shimyytrov_war_desc_1:0 "我們告訴了我們的人民去準備下一場戰爭。"
+ VON_second_anti_shimyytrov_war:0 "第二次反希米特羅夫戰爭"
+ VON_postwar_reconstruction:0 "戰後重建"
+ VON_postwar_reconstruction_desc:0 "戰爭之後，我們要重建我們的國家。"
+
+ # SCHMITROVLAND IDEAS
+ SCH_low_legitimacy:0 "受質疑的合法性"
+ SCH_low_legitimacy_desc:0 "我們的正統性受到質疑！人民不認可我們統治希米特羅夫。"
+ SCH_low_legitimacy_1:0 "受質疑的合法性"
+ SCH_low_legitimacy_1_desc:0 "我們的正統性受到質疑！人民不認可我們統治希米特羅夫。"
+ SCH_slava_zieg:0 "勝利萬歲！"
+ SCH_slava_zieg_desc:0 "走！走！我們快要打贏這場戰爭了！勝利萬歲！"
+ SCH_attack:0 "攻擊！"
+ SCH_defense:0 "防守！"
+ SCH_after_the_war:0 "戰爭過後"
+ SCH_after_the_war_desc:0 "戰爭之後，我們要重建我們的國家。"
+ SCH_raise_of_taschkerija_royal_family:0 "塔什克利亞皇室的崛起"
+ SCH_bring_the_entire_nation_to_arms:0 "全民皆兵！"
+ SCH_crazy_research:0 "希米特羅夫的科技世界第一！"
+ SCH_central_bank:0 "希米特羅夫中央銀行"
+ SCH_shimyytrov_militarism:0 "希米特羅夫軍國主義"
+ SCH_guardians_of_fatherland:0 "祖國的守衛者們"
+ SCH_autonomy:0 "希米特羅夫的自治領"
+ SCH_anti_communist_policy_idea:0 "反共政策"
+
+ HKG_wild_ambition:0 "狼子野心"

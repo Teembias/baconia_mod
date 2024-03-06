@@ -1,0 +1,33 @@
+
+state={
+	id=969
+	name="STATE_969"
+	manpower = 1029385
+	
+	state_category = large_city
+	resources={
+		steel=34
+		chromium=15
+		tungsten=19
+	}
+
+
+	history={
+		victory_points = {
+		}
+		owner = TAR
+		buildings = {
+			industrial_complex = 4
+			dockyard = 4
+			infrastructure = 2
+		}
+		add_core_of = TAR
+		add_core_of = KTV
+	}
+
+	provinces={
+		13592 13593 13594 13595 13596
+	}
+
+	local_supplies=12.0
+}

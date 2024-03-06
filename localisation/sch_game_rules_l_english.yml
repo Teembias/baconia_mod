@@ -1,0 +1,11 @@
+﻿l_english:
+ SCH_AI_BEHAVIOR:0 "@SCH 希米特羅夫"
+
+ RULE_OPTION_COMMUNIST_SCH:0 "共產主義 — 群島革命"
+ RULE_OPTION_COMMUNIST_SCH_AI_DESC:0 "塔熱科維奇將接管國家。當共產希米特羅夫成立後，革命將被帶到諾什卡利亞和塔爾科娃哈。希米特羅夫將會統一希米特羅夫群島。"
+ RULE_OPTION_FASCIST_SCH:0 "法西斯主義 — 希米特羅夫萬歲"
+ RULE_OPTION_FASCIST_SCH_AI_DESC:0 "亞歷山德羅維奇將吞并馮卡斯坦、保持法西斯的道路。他將入侵諾什卡利亞、塔爾科娃哈，並傀儡斯塔克，朝成立大希米特羅夫的道路前進。"
+ RULE_OPTION_TASCHKERIJA_SCH:0 "帝國主義 — 天佑塔什克利亞"
+ RULE_OPTION_TASCHKERIJA_SCH_AI_DESC:0 "在希馮戰爭後，塔什克利亞皇室將會接管國家。塔什克利亞將保持中立并且守護希米特羅夫群島的和平。"
+ RULE_OPTION_TASCHKERIJA_greater_SCH:0 "帝國主義 — 大希米特羅夫！"
+ RULE_OPTION_TASCHKERIJA_greater_SCH_AI_DESC:0 "在希馮戰爭後，塔什克利亞皇室將會接管國家。塔什克利亞將和亞歷山德羅維奇合作，嘗試組建大希米特羅夫沙皇國。"

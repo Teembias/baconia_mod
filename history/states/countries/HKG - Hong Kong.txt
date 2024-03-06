@@ -1,0 +1,72 @@
+﻿capital = 326
+
+oob="HKG_1936"
+
+set_research_slots = 6
+
+add_ideas = {
+	limited_conscription
+	HKG_wild_ambition
+}
+
+set_stability = 0.5
+set_war_support = 0.5
+
+add_political_power = 255
+add_command_power = 50
+add_manpower = 985743
+
+set_technology = {
+	interwar_artillery = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	infantry_weapons2 = 1
+	support_weapons = 1
+	#doctrines
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_mountaineers = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+	mobile_warfare = 1
+	air_superiority = 1
+	grand_battle_plan = 1
+	trench_warfare = 1
+	fleet_in_being = 1
+	battlefleet_concentration = 1
+	submarine_operations = 1
+	#electronics
+	electronic_mechanical_engineering = 1
+	radio = 1
+	radio_detection = 1
+	mechanical_computing = 1
+	computing_machine = 1
+	#industry
+	basic_machine_tools = 1
+	improved_machine_tools = 1
+	advanced_machine_tools = 1
+	synth_oil_experiments = 1
+	fuel_silos = 1
+	oil_processing = 1
+	improved_oil_processing = 1
+	construction1 = 1
+	construction2 = 1
+	dispersed_industry = 1
+	dispersed_industry2 = 1
+}
+
+set_convoys = 200		# biggest merchant marine in the world
+
+set_politics = {
+	ruling_party = neutrality
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 17
+	fascism = 10
+	communism = 23
+	neutrality = 50
+}

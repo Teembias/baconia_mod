@@ -1,0 +1,29 @@
+
+state={
+	id=976
+	name="STATE_976"
+	manpower = 1948576
+	
+	state_category = megalopolis
+	resources={
+	}
+
+	history={
+		victory_points = {
+			13617 30
+		}
+		owner = TAR
+		buildings = {
+			industrial_complex = 10
+			infrastructure = 3
+		}
+		add_core_of = TAR
+		add_core_of = KTV
+	}
+
+	provinces={
+		13616 13617 13618
+	}
+
+	local_supplies=12.0
+}

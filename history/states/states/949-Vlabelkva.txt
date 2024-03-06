@@ -1,0 +1,30 @@
+
+state={
+	id=949
+	name="STATE_949"
+	manpower = 596847
+	
+	state_category = town
+
+	history={
+		victory_points = {
+			13477 25
+		}
+		owner = TAR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 2
+			dockyard = 2
+			13477 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = TAR
+	}
+
+	provinces={
+		13477 13478 13479 13480 13481 13482 13483
+	}
+
+	local_supplies=8.0
+}

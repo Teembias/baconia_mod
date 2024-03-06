@@ -1,0 +1,7 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_focus_target_tarkovakha"
+		texturefile = "gfx/focuses/SCH_gfx_target_tarkovakha.dds"
+	}
+}

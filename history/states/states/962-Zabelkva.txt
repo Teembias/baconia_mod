@@ -1,0 +1,29 @@
+
+state={
+	id=962
+	name="STATE_962"
+	manpower = 1049586
+	
+	state_category = town
+	resources={
+		steel=64
+	}
+
+	history={
+		victory_points = {
+			13545 15
+		}
+		owner = TAR
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+		}
+		add_core_of = TAR
+	}
+
+	provinces={
+		13540 13541 13542 13543 13544 13545 13546 13547 13548 13549 13550 13551 13552 13553 13554
+	}
+
+	local_supplies=12.0
+}

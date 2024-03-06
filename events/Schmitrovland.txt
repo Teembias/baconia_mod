@@ -1,0 +1,164 @@
+add_namespace = schmitrovland
+news_event = {
+	id = schmitrovland.1
+	title = schmitrovland.1.t
+	desc = schmitrovland.1.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event schmitrovland.1"}
+	major = yes
+	picture = GFX_news_event_MLY_ahmad_victory
+	is_triggered_only = yes
+	option = {
+		name = schmitrovland.1.a
+		trigger = {
+			has_war_with = VON
+			NOT = { tag = SCH }
+		}
+	}
+	option = {
+		name = schmitrovland.1.b
+		trigger = {
+			NOT = { tag = SCH has_war_with = VON }
+		}
+	}
+	option = {
+		name = schmitrovland.1.self
+		trigger = {
+			tag = SCH
+		}
+	}
+}
+
+country_event = {
+	id = schmitrovland.2
+	title = schmitrovland.2.t
+	desc = schmitrovland.2.d
+	major = no
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	option = {
+		name = schmitrovland.2.a
+		SCH = {
+				transfer_state = 937
+				transfer_state = 938
+				transfer_state = 939
+				add_war_support = 0.05
+			}
+	}
+}
+
+country_event = {
+	id = schmitrovland.3
+	title = schmitrovland.3.t
+	desc = schmitrovland.3.d
+	major = no
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	option = {
+		name = schmitrovland.3.a
+	}
+}
+
+country_event = {
+	id = schmitrovland.4
+	title = schmitrovland.4.t
+	desc = schmitrovland.4.d
+	major = no
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	option = {
+		name = schmitrovland.4.a
+		add_popularity = {
+			ideology = fascism
+			popularity = -0.4
+		}
+	}
+}
+
+country_event = {
+	id = schmitrovland.5
+	title = schmitrovland.5.t
+	desc = schmitrovland.5.d
+	major = no
+	picture = GFX_report_event_chinese_soldiers_fighting
+	is_triggered_only = yes
+	option = {
+		name = schmitrovland.5.a
+		set_party_name = {
+			ideology = neutrality
+			long_name = SCH_great_tsar_long
+			name = SCH_great_tsar
+		}
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.4
+		}
+		add_popularity = {
+			ideology = fascism
+			popularity = -1
+		}
+		add_ideas = SCH_shimyytrov_militarism
+		add_ideas = SCH_guardians_of_fatherland
+		set_global_flag = SCH_greater_sch_road
+	}
+}
+
+country_event = {
+	id = schmitrovland.6
+	title = schmitrovland.6.t
+	desc = schmitrovland.6.d
+	major = no
+	picture = GFX_report_event_military_planning
+	is_triggered_only = yes
+	option = {
+		name = schmitrovland.6.a
+		ai_chance = { factor = 100 }
+		SCH = { add_to_faction = ROOT }
+	}
+	option = {
+		name = schmitrovland.6.b
+	}
+}
+
+country_event = {
+	id = schmitrovland.7
+	title = schmitrovland.7.t
+	desc = schmitrovland.7.d
+	major = no
+	picture = GFX_report_event_military_planning
+	is_triggered_only = yes
+	option = {
+		name = schmitrovland.7.a
+		declare_war_on = { target = FROM type = annex_everything }
+	}
+}
+
+country_event = {
+	id = schmitrovland.8
+	title = schmitrovland.8.t
+	desc = schmitrovland.8.d
+	major = no
+	picture = GFX_report_event_military_planning
+	is_triggered_only = yes
+	option = {
+		name = schmitrovland.8.a
+		leave_faction = yes
+		SCH = { country_event = { id = schmitrovland.9 } }
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = schmitrovland.8.b
+	}
+}
+
+country_event = {
+	id = schmitrovland.9
+	title = schmitrovland.9.t
+	desc = schmitrovland.9.d
+	major = no
+	picture = GFX_report_event_military_planning
+	is_triggered_only = yes
+	option = {
+		name = schmitrovland.9.a
+		SCH = { add_to_faction = JAP }
+	}
+}

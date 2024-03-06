@@ -1,0 +1,107 @@
+characters = {
+	VON_JWagner = {
+		name = VON_JWagner
+		portraits = {
+			civilian = {
+				large = GFX_JWagner
+			}
+		}
+		country_leader = {
+			ideology = nazism
+		}
+	}
+	
+	VON_JSchaefer = {
+		name = VON_JSchaefer
+		portraits = {
+			civilian = {
+				large = GFX_JSchaefer
+			}
+		}
+		country_leader = {
+			ideology = leninism
+		}
+	}
+
+	VON_KFBecker = {
+		name = VON_KFBecker
+		portraits = {
+			civilian = {
+				large = GFX_KFBecker
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+		}
+	}
+
+	VON_RMeyer = {
+		name = VON_RMeyer
+		portraits = {
+			civilian = {
+				large = GFX_RMeyer
+			}
+		}
+		country_leader = {
+			ideology = despotism
+		}
+	}
+
+	VON_Wilbert_Lorenz = { 
+		name= VON_WLorenz
+		field_marshal = {
+			traits = { army_chief_reform_3 }
+				skill = 2
+			attack_skill = 2
+			defense_skill = 1ka
+			planning_skill = 1
+			logistics_skill = 2
+			id = -1
+		}
+		advisor = {
+			slot = army_chief
+			cost = 150
+			idea_token = VON_Lorenz
+			allowed = {  }
+			available = {
+			}
+			traits = { army_chief_reform_3 }
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+
+	VON_Bardulf_Gantzmann={
+		name=VON_BGantzmann
+		advisor={
+			slot = air_chief
+			idea_token = VON_Gantzmann
+			available = {  }
+			traits = {
+				air_chief_ground_support_2
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 2.000
+			}
+		}
+	}
+
+	VON_Ruediger_Schreiber={
+		name=VON_RSchreiber
+		advisor={
+			slot = navy_chief
+			idea_token = VON_Schreiber
+			available = {
+			}
+			traits = {
+				navy_chief_commerce_raiding_3
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+state={
+	id=928
+	name="STATE_928"
+	manpower = 421948
+	resources={
+		steel=8
+		chromium=32
+		tungsten=34
+		oil=12
+	}
+	state_category = town
+
+	history={
+		add_extra_state_shared_building_slots = 4
+		owner = VON
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+		}
+		add_core_of = VON
+		add_core_of = SCH
+		add_core_of = HUR
+	}
+
+	provinces={
+		13350 13351 13352 13353 13354
+	}
+
+	local_supplies=0.0
+}

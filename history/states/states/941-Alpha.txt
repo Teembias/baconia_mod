@@ -1,0 +1,27 @@
+
+state={
+	id=941
+	name="STATE_941"
+	manpower = 6198574
+	
+	state_category = megalopolis
+
+	history={
+		victory_points = {
+			13442 64
+		}
+		owner = NOS
+		buildings = {
+			industrial_complex = 4
+			arms_factory = 4
+			infrastructure = 4
+		}
+		add_core_of = NOS
+	}
+
+	provinces={
+		13441 13442 13443 13444
+	}
+
+	local_supplies=15.0
+}

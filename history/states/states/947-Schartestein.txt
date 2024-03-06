@@ -1,0 +1,26 @@
+
+state={
+	id=947
+	name="STATE_947"
+	manpower = 1049586
+	
+	state_category = city
+
+	history={
+		victory_points = {
+			13472 25
+		}
+		owner = NOS
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 3
+		}
+		add_core_of = NOS
+	}
+
+	provinces={
+		13467 13468 13469 13470 13471 13472 13473
+	}
+
+	local_supplies=10.0
+}

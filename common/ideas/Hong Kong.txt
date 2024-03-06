@@ -1,0 +1,32 @@
+ideas = {
+
+	country = {
+
+		HKG_wild_ambition = {
+			picture = all_adults_serve
+
+			allowed = {
+				original_tag = HKG
+			}
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			
+			modifier = {
+				cic_to_overlord_factor = 0
+				mic_to_overlord_factor = 0
+				autonomy_manpower_share = 0
+				stability_factor = 0.25
+				industrial_capacity_factory = 1
+				industrial_capacity_dockyard = 0.3
+				consumer_goods_factor = -0.95
+				weekly_manpower = 2000
+				army_attack_factor = 1
+				army_defence_factor = 3
+			}
+		}
+
+	}
+
+}

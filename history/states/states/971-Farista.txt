@@ -1,0 +1,29 @@
+
+state={
+	id=971
+	name="STATE_971"
+	manpower = 2049586
+	
+	state_category = city
+	resources={
+	}
+
+	history={
+		victory_points = {
+			13602 30
+		}
+		owner = TAR
+		buildings = {
+			industrial_complex = 3
+			infrastructure = 3
+		}
+		add_core_of = TAR
+		add_core_of = KTV
+	}
+
+	provinces={
+		13601 13602 13603
+	}
+
+	local_supplies=12.0
+}
