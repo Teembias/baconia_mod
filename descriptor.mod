@@ -6,5 +6,5 @@ tags={
 	"Gameplay"
 }
 name="baconia Test Mod"
-supported_version="1.13.*"
+supported_version="1.12.*"
 remote_file_id="3173486570"
