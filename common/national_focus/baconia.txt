@@ -60,12 +60,77 @@
 	####### ARMY SECTION #######
 	############################
 	focus = {
-		id = BCR_The_empire_of_Baconia
+		id = the_old_system
 		icon = GFX_goal_generic_construction
-		mutually_exclusive = { focus =  }
-		x = -1
+		x = 10
 		y = 0
 		relative_position_id = 
+		available = {
+		}
+
+		
+		bypass = {
+
+		}
+		
+		cost = 5
+		prerequisite = { focus = }
+		mutually_exclusive = {focus = BCR_new_system }  
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.40
+			}
+			add_political_power = 100
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = BCR_new_system
+		icon = GFX_goal_generic_construction
+		x = 5
+		y = 0
+		relative_position_id = 
+		available = {
+		}
+
+		bypass = {
+
+		}
+		
+		cost = 10
+		prerequisite = { focus = }
+		mutually_exclusive = {focus = the_old_system }  
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = BCR_the_Imperialism_in_the_government
+		icon = GFX_goal_generic_construction
+		x = -2
+		y = 1
+		relative_position_id = the_old_system
 		available = {
 
 		}
@@ -75,7 +140,7 @@
 		}
 		
 		cost = 10
-		prerequisite = { focus = }
+		prerequisite = { focus = the_old_system }
 		mutually_exclusive = {focus = }  
 
 
