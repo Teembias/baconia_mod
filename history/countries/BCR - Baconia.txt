@@ -76,24 +76,24 @@ set_convoys = 20
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = republicanism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 55
+	republicanism = 55
 	fascism = 20
 	communism = 5
 	neutrality = 20
 }
 
 create_country_leader = {
-	name = "最高安全委員會"
-	desc = ""
+	name = "提姆比亞斯 紐克斯"
+	desc = "政治改革者"
 	picture = "jesus.dds"
-	ideology = liberalism
+	ideology = cradicalism
 	traits = {
 		#
 	}

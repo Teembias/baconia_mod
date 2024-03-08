@@ -1,0 +1,11 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_focus_the_new_system"
+		texturefile = "gfx/focuses/BCR_gfx_the_new_system.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_the_1938_election"
+		texturefile = "gfx/focuses/BCR_gfx_the_1938_election.dds"
+	}
+}
