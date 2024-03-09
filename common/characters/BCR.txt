@@ -1,0 +1,18 @@
+characters={
+	BCR_teembias_newman_saxony={
+		name=BCR_teembias_newman_saxony
+		portraits={
+			civilian={
+				large=GFX_jesus
+			}
+		}
+		country_leader={
+			ideology=cradicalism
+			traits={ Backed_by_Political_Coalition }
+			
+			
+			expire="2000.1.1.1"
+			id=-1
+		}
+	}
+}
