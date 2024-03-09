@@ -1,0 +1,29 @@
+﻿###########################
+# Chinese Events
+###########################
+
+add_namespace = baconia
+
+# Japanese Stage Border Incident
+country_event = {
+	id = baconia.1
+	title = baconia.1.t
+	desc = baconia.1.d
+	picture = GFX_the_Imperialism_in_the_government
+	
+	trigger = {
+		tag = BCR
+		has_completed_focus = BCR_the_Imperialism_in_the_government
+	}
+	fire_only_once = yes
+	option = {
+		name = baconia.1.a
+		ai_chance = { factor = 100 }
+		add_popularity = {
+			ideology = neutrality
+			popularity = 0.20
+		}
+		add_political_power = 50
+		add_stability = -0.01
+	}
+}

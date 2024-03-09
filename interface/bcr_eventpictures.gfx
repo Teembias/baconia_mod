@@ -1,0 +1,7 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_the_Imperialism_in_the_government"
+		texturefile = "gfx/event/the imperialism in the government.dds"
+	}
+}

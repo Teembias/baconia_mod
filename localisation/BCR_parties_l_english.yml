@@ -7,3 +7,12 @@
  liberalism:0 "自由主義"
  socialism:0 "社會主義"
  BCR_republicanism_party:0 "培根共和黨"
+
+ syndicalism:0 "工團主義"
+ syndicalism_noun:0 "培根公社"
+ syndicalism_desc:0 "培根公社"
+ marxism:0 "馬克思主義"
+ social_democracy_desc:0 "社會民主主義是馬克思主義修改後的一種新型社會主義"
+ social_democracy:0 "社會民主主義"
+ nationalism:0 "國家主義"
+ BCR_syndicalism_party:0 "培根公社"

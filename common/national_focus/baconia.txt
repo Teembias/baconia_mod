@@ -61,7 +61,7 @@
 	############################
 	focus = {
 		id = the_old_system
-		icon = GFX_goal_continuous_boost_freedom
+		icon = GFX_focus_the_old_system
 		x = 10
 		y = 0
 		relative_position_id = 
@@ -159,7 +159,7 @@
 	}
 	focus = {
 		id = BCR_work_with_imperials_party
-		icon = GFX_goal_continuous_boost_freedom
+		icon = GFX_focus_BCR_work_with_imperials_party
 		x = 1
 		y = 1
 		relative_position_id = the_old_system

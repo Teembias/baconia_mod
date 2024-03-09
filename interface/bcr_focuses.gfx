@@ -8,4 +8,12 @@ spriteTypes = {
 		name = "GFX_focus_the_1938_election"
 		texturefile = "gfx/focuses/BCR_gfx_the_1938_election.dds"
 	}
+	spriteType = {
+		name = "GFX_focus_the_old_system"
+		texturefile = "gfx/focuses/the_old_system.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_BCR_work_with_imperials_party"
+		texturefile = "gfx/focuses/BCR_work_with_imperials_party.dds"
+	}
 }

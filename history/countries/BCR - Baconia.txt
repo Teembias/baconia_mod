@@ -65,10 +65,11 @@ set_politics = {
 }
 
 set_popularities = {
-	republicanism = 55
-	fascism = 20
-	communism = 5
-	neutrality = 20
+	republicanism = 50
+	syndicalism = 25
+	fascism = 0
+	communism = 10
+	neutrality = 15
 }
 
 create_country_leader = {
@@ -84,7 +85,7 @@ create_country_leader = {
 	name = "亨利 科比"
 	desc = "bcr_neutrality_leader_desc"
 	picture = "jesus.dds"
-	ideology = oligarchism
+	ideology = social_democracy
 	traits = {
 		#
 	}
