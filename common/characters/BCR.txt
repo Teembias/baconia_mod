@@ -1,9 +1,9 @@
 characters={
-	BCR_teembias_newman_saxony={
+	BCR_teembias_newman_saxony_character={
 		name=BCR_teembias_newman_saxony
 		portraits={
 			civilian={
-				large=GFX_jesus
+				large="GFX_portrait_teembias_character"
 			}
 		}
 		country_leader={
