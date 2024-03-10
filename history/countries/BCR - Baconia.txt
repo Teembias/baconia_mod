@@ -56,7 +56,12 @@ set_convoys = 20
 	}
 }
 
-
+add_ideas = {
+	baconia_the_old_system
+	baconia_tumultuous_politics
+	baconia_communist_in_government
+	baconia_the_fragmentation_baconia
+}
 set_politics = {
 	ruling_party = republicanism
 	last_election = "1936.1.1"

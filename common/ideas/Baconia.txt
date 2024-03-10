@@ -1,16 +1,16 @@
 ideas = {
 
 	country = {
-		baconia_ = {
-			picture = usa_great_depression_3
-			
+		baconia_the_old_system = {
+			picture = old_system
+
 			allowed = {
 				tag = BCR
 			}
 			available = {
-				has_completed_focus = the_old_system
 			}
-			cancel = {}
+			cancel = {
+			}
 
 			allowed_civil_war = {
 				always = yes
@@ -20,11 +20,74 @@ ideas = {
 			
 			modifier = {
 				political_power_cost = 1
-				consumer_goods_factor = 0.3
-				conscription_factor = -0.5
-				join_faction_tension = 0.20
-				local_resources_factor = -0.2
+				neutrality_drift = 0.01
+	 		}
+		}
+
+		baconia_tumultuous_politics = {
+			picture = great_depression
+
+			allowed = {
+				tag = BCR
 			}
+			available = {
+			}
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_cost = 0.01
+	 		}
+		}
+
+		baconia_the_fragmentation_baconia = {
+			picture = old_system
+
+			allowed = {
+				tag = BCR
+			}
+			available = {
+			}
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.1
+	 		}
+		}
+
+		baconia_communist_in_government = {
+			picture = generic_communism_drift_bonus
+
+			allowed = {
+				tag = BCR
+			}
+			available = {
+			}
+			cancel = {
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.001
+	 		}
 		}
 	}
 }
