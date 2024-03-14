@@ -1,0 +1,34 @@
+state={
+	id=982
+	name="羅布勒斯市"
+	manpower = 13405900
+	
+	state_category = city
+	resources={
+	}
+
+	history={
+		owner = BCR
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 6
+			13640 = {
+				naval_base = 10
+			}
+		}
+		add_core_of = BCR
+		victory_points = {
+			13640 10 
+		}
+		victory_points = {
+			13641 5 
+		}
+	}
+
+	provinces={
+		13640 13641 13642
+	}
+
+	local_supplies=0.0
+}

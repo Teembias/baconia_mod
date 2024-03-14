@@ -1,0 +1,22 @@
+state={
+	id=996
+	name="STATE_996"
+	manpower = 13405
+	
+	state_category = town
+	resources={
+	}
+
+	history={
+		owner = BCR
+		add_core_of = BCR
+	}
+	buildings = {
+		arms_factory = 4
+	}
+	provinces={
+		13643 13644
+	}
+
+	local_supplies=0.0
+}

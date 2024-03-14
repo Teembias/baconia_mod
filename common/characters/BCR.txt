@@ -1,18 +1,79 @@
 characters={
 	BCR_teembias_newman_saxony_character={
-		name=BCR_teembias_newman_saxony
+		name= BCR_teembias_newman_saxony
 		portraits={
 			civilian={
 				large="GFX_portrait_teembias_character"
 			}
+			army={
+				small="GFX_Portrait_por_antonio_de_oliveira_salazar_small"
+			}
 		}
+		
 		country_leader={
 			ideology=cradicalism
-			traits={ Backed_by_Political_Coalition }
+			traits={ radical_reformers }
+			desc = BCR_teembias_newman_saxony_desc
 			
 			
 			expire="2000.1.1.1"
-			id=-1
+		}
+
+		advisor={
+			slot = political_advisor
+			idea_token = teembias_newman
+			desc = BCR_teembias_newman_saxony_desc
+			allowed  = {
+				tag  = BCR
+			}
+			available  = {
+				if  = {
+
+					is_country_leader = no
+					has_completed_focus = BCR_new_system
+				}
+			}
+			traits = { 
+				radical_reformers 
+				great_war_hero 
+			}
+			cost = 150
+			modifier = {
+				republicanism_drift = 0.03
+				stability_weekly = 0.03
+				political_power_gain = 0.2
+			}
+			ai_will_do  = {
+				factor  = 10.000
+			}
+		}
+	}
+	BCR_Drislok_Boussensmo_Kelovic_Stanvisismeet_character={
+		name= BCR_Drislok_Boussensmo_Kelovic_Stanvisismeet
+		portraits={
+			civilian={
+				large="GFX_portrait_Drislok_character"
+			}
+			army={
+				small="GFX_Portrait_por_antonio_de_oliveira_salazar_small"
+			}
+		}
+		
+		country_leader={
+			ideology=cradicalism
+			traits={ radical_reformers war_hero }
+			desc = BCR_Drislok_Boussensmo_Kelovic_Stanvisismeet_desc
+			
+			
+		}
+
+		corps_commander = {
+            traits = { republicanism_party_trait war_hero }
+            skill = 5
+            attack_skill = 5
+            defense_skill = 5
+            planning_skill = 9
+            logistics_skill = 5
 		}
 	}
 }

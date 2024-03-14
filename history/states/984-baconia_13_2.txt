@@ -1,0 +1,23 @@
+state={
+	id=984
+	name="STATE_984"
+	manpower = 13405
+	
+	state_category = city
+	resources={
+	}
+
+	history={
+		owner = BCR
+		add_core_of = BCR
+		victory_points = {
+			13658 10 
+		}
+	}
+
+	provinces={
+		13658
+	}
+
+	local_supplies=0.0
+}

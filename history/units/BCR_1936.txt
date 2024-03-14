@@ -1,0 +1,76 @@
+﻿division_template = {
+    name = "共和國步兵團"
+	division_template = BCR_INF_01
+    regiments = {
+        infantry = { x = 0 y = 0 }
+        infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 2 y = 0 }
+        infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		infantry = { x = 2 y = 3 }
+    }
+	support = {
+        artillery = { x = 0 y = 0 }
+    }
+}
+
+units = {
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 13640
+		division_template = "共和國步兵團"
+		start_experience_factor = 1
+		start_equipment_factor = 2
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 13640
+		division_template = "共和國步兵團"
+		start_experience_factor = 1
+		start_equipment_factor = 2
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 13640
+		division_template = "共和國步兵團"
+		start_experience_factor = 1
+		start_equipment_factor = 2
+
+	}
+	division = {
+		division_name = {
+			is_name_ordered = yes
+		}
+		location = 13640
+		division_template = "共和國步兵團"
+		start_experience_factor = 1
+		start_equipment_factor = 2
+
+	}
+}
+
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+	    type = infantry_equipment_0
+	    creator = "BCR"
+	}
+	requested_factories = 1
+	progress = 0.19
+	efficiency = 100
+    }
+}
