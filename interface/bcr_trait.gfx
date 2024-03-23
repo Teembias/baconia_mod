@@ -1,6 +1,6 @@
 spriteTypes = {	
 	spriteType = {
-		name = "GFX_trait_republicanism_party"
+		name = "GFX_trait_republicanism_party_trait"
 		texturefile = "gfx/interface/traits/personal/trait_BALTIC_ex_russian.dds"
 	}
 }

@@ -6,7 +6,13 @@ state={
 	state_category = city
 	resources={
 	}
-
+	resources={
+		steel=16
+		tungsten=12
+		aluminium=128
+		rubber=86
+		oil=64
+	}
 	history={
 		owner = BCR
 		buildings = {

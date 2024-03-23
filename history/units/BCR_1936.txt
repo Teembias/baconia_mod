@@ -29,6 +29,7 @@ units = {
 		division_template = "共和國步兵團"
 		start_experience_factor = 1
 		start_equipment_factor = 2
+        force_equipment_variants = { artillery_equipment_1 = { creator = "SCH" amount = 100 } }
 
 	}
 	division = {
@@ -39,6 +40,7 @@ units = {
 		division_template = "共和國步兵團"
 		start_experience_factor = 1
 		start_equipment_factor = 2
+		force_equipment_variants = { artillery_equipment_1 = { creator = "SCH" amount = 100 } }
 
 	}
 	division = {
@@ -49,6 +51,7 @@ units = {
 		division_template = "共和國步兵團"
 		start_experience_factor = 1
 		start_equipment_factor = 2
+		force_equipment_variants = { artillery_equipment_1 = { creator = "SCH" amount = 100 } }
 
 	}
 	division = {
@@ -59,9 +62,11 @@ units = {
 		division_template = "共和國步兵團"
 		start_experience_factor = 1
 		start_equipment_factor = 2
+		force_equipment_variants = { artillery_equipment_1 = { creator = "SCH" amount = 100 } }
 
 	}
 }
+
 
 instant_effect = {
     add_equipment_production = {
@@ -70,6 +75,15 @@ instant_effect = {
 	    creator = "BCR"
 	}
 	requested_factories = 1
+	progress = 0.19
+	efficiency = 100
+    }
+	add_equipment_production = {
+        equipment = {
+	    type = artillery_equipment_1
+	    creator = "BCR"
+	}
+	requested_factories = 2
 	progress = 0.19
 	efficiency = 100
     }
