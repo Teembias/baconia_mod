@@ -191,8 +191,8 @@
 	focus = {
 		id = BCR_the_1938_election
 		icon = GFX_focus_the_1938_election
-		x = -1
-		y = 1
+		x = -2
+		y = 2
 		relative_position_id = BCR_work_with_imperials_party
 		available = {
 
@@ -219,6 +219,42 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = transmitted_from_empire
+		icon = GFX_focus_the_new_system
+		x = 0
+		y = 2
+		relative_position_id = BCR_work_with_imperials_party
+		available = {
+		}
+
+		bypass = {
+
+		}
+		
+		cost = 10
+		prerequisite = { 
+			focus = BCR_work_with_imperials_party
+		}
+	prerequisite = { 
+		focus = BCR_the_Imperialism_in_the_government
+		}
+		mutually_exclusive = {focus =  }  
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			add_political_power = 100
 
 		}
 
