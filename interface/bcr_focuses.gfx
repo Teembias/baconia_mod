@@ -16,4 +16,12 @@ spriteTypes = {
 		name = "GFX_focus_BCR_work_with_imperials_party"
 		texturefile = "gfx/focuses/BCR_work_with_imperials_party.dds"
 	}
+	spriteType = {
+		name = "GFX_focus_BCR_the_Imperialism_in_the_government"
+		texturefile = "gfx/focuses/BCR_the_Imperialism_in_the_government.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_BCR_transmitted_from_empire"
+		texturefile = "gfx/focuses/BCR_transmitted_from_empire.dds"
+	}
 }

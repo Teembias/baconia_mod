@@ -128,7 +128,7 @@
 	}
 	focus = {
 		id = BCR_the_Imperialism_in_the_government
-		icon = GFX_goal_continuous_boost_freedom
+		icon = GFX_focus_BCR_the_Imperialism_in_the_government
 		x = -1
 		y = 1
 		relative_position_id = the_old_system
@@ -150,7 +150,10 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			custom_effect_tooltip = BCR_the_Imperialism_in_the_government_focus_tt
+			hidden_effect = {
+				country_event = { id = baconia.1 days = 1 }
+			}
 		}
 
 		ai_will_do = {
@@ -219,7 +222,9 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-
+			hidden_effect = {
+				country_event = { id = baconia.2 days = 3 }
+			}
 		}
 
 		ai_will_do = {
@@ -227,8 +232,8 @@
 		}
 	}
 	focus = {
-		id = transmitted_from_empire
-		icon = GFX_focus_the_new_system
+		id = BCR_transmitted_from_empire
+		icon = GFX_focus_BCR_transmitted_from_empire
 		x = 0
 		y = 2
 		relative_position_id = BCR_work_with_imperials_party

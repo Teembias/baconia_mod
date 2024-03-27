@@ -10,12 +10,7 @@ country_event = {
 	title = baconia.1.t
 	desc = baconia.1.d
 	picture = GFX_the_Imperialism_in_the_government
-	
-	trigger = {
-		tag = BCR
-		has_completed_focus = BCR_the_Imperialism_in_the_government
-	}
-	fire_only_once = yes
+	is_triggered_only = yes
 	option = {
 		name = baconia.1.a
 		ai_chance = { factor = 100 }
@@ -25,5 +20,53 @@ country_event = {
 		}
 		add_political_power = 50
 		add_stability = -0.01
+	}
+}
+country_event = {
+	id = baconia.2
+	title = baconia.2.t
+	desc = baconia.2.d
+	picture = GFX_the_Imperialism_in_the_government
+	is_triggered_only = yes
+	hidden = yes
+	immediate = {
+		random_list = {
+			90 = { country_event = { id = baconia.3 days = 1 } }
+			10 = { country_event = { id = baconia.4 days = 1 } }
+		}
+	}
+}
+country_event = {
+	id = baconia.3
+	title = baconia.3.t
+	desc = baconia.3.d
+	picture = GFX_the_Imperialism_in_the_government
+	is_triggered_only = yes
+	option = {
+		name = baconia.3.a
+		declare_war_on = {
+			target = USA
+			type = annex_everything
+		}
+		ai_chance = { factor = 100 }
+
+	}
+}
+country_event = {
+	id = baconia.4
+	title = baconia.4.t
+	desc = baconia.4.d
+	picture = GFX_the_Imperialism_in_the_government
+	is_triggered_only = yes
+	option = {
+		name = baconia.4.a
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+			last_election = "1938.2.17"
+			election_frequency = 0
+		}
+		ai_chance = { factor = 100 }
+
 	}
 }
